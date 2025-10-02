@@ -27,19 +27,28 @@ with st.expander("Title: AI Awareness, Exploration, and Responsibility",expanded
 	Rather than viewing AI as a threat, we can reframe it as an opportunity to revisit our practices and deepen our commitment to empowering writers.''')
 st.divider()
 
-cols = st.columns([1,3])
-with cols[0]:
-  st.subheader("Maria Eleftheriou")
-  st.markdown("*Regional Speaker*")
-with cols[1].container(border=True):
-    st.markdown('''
-    Maria Eleftheriou is an Assistant Professor of English at the American University of Sharjah, where she directs the Writing Center and oversees its peer tutor training program. 
-    She  teaches undergraduate courses in academic writing and research and has also taught in the MATESOL program at the graduate level. 
-    Her scholarship explores writing center pedagogy, multilingual tutoring, online writing instruction, and the role of AI in academic writing. 
-    Her publications include work in TESOL International Journal, Contemporary Educational Technology, WAC Clearinghouse, and Palgrave Macmillan, 
-    with forthcoming articles in The Educational Forum and the Online Learning Journal. She remains active in MENAWCA and global writing center networks.
-    ''')
+st.write("**Maria Eleftheriou** ***(Regional Speaker)*** is an Assistant Professor of English at the American University of Sharjah, where she directs the Writing Center and oversees its peer tutor training program.")
+st.markdown('''
+She  teaches undergraduate courses in academic writing and research and has also taught in the MATESOL program at the graduate level.
+Her scholarship explores writing center pedagogy, multilingual tutoring, online writing instruction, and the role of AI in academic writing. 
+Her publications include work in TESOL International Journal, Contemporary Educational Technology, WAC Clearinghouse, and Palgrave Macmillan, 
+with forthcoming articles in The Educational Forum and the Online Learning Journal. She remains active in MENAWCA and global writing center networks.''')
 
+with st.expander("Title: Reimagining the Writing Center in the Age of Generative AI: A MENA Perspective on Ethics and Agency",expanded=True):
+	st.markdown('''
+	Generative AI has reshaped the work of writing centers and created urgent questions about authorship, integrity, and student voice. 
+	At the American University of Sharjah Writing Center, peer tutors began to encounter AI-generated drafts in 2022. 
+	Some students disclosed their use of AI while others concealed it, and tutors faced dilemmas about whether to confront, revise, 
+	or encourage students to replace AI-produced sections with their own writing. These encounters reveal the need for guidance rooted 
+	not only in policy but also in pedagogy.''')
+	st.markdown('''
+	This keynote examines how writing centers can respond by emphasizing ethics, student agency, and the multilingual realities of the MENA region. 
+	Drawing on findings from tutor focus groups and a follow-up study, I will show how tutors respond in practice. 
+	They invite disclosure, move suspicion toward curiosity, and use AI as a tool for brainstorming and revision alongside students. 
+	Recent scholarship supports these practices and positions tutors as mediators and innovators in AI-era writing instruction.''')
+	st.markdown('''
+	The keynote invites a regional dialogue on how MENA writing centers can adapt technology while preserving the human connection that 
+	empowers students to think, create, and write with confidence.''')
 st.divider()
 
 cols = st.columns([1,3])

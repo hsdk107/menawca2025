@@ -33,7 +33,7 @@ with col0:
 with col1:
 	st.page_link("program.py", label="Program Schedule", icon=":material/calendar_clock:")
 with col2:
-	st.page_link("layouts.py", label="Layouts", icon=":material/info:")
+	st.page_link("layouts.py", label="Speakers|Abstracts", icon=":material/article_person:")
 
 with st.expander("Announcements",expanded=True,icon=":material/release_alert:"):
 	st.write("No new announcements.")

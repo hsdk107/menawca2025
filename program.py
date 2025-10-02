@@ -5,11 +5,11 @@ st.header("Conference Program")
 
 day1, day2, day3 = st.tabs(["**Friday October 10**", "**Saturday, October 11**", "**Sunday, October 12**"])
 with day1:
-  st.header("This is day 1")
+  st.header("Day 1: Friday October 10, 2025")
   st.table(chart_data)
 with day2:
-  st.header("This is day 2")
+  st.header("Day 2: Saturday October 11 2025")
   st.table(chart_data)
 with day3:
-  st.header("This is day 3")
+  st.header("Day 3: Sunday October 12 2025")
   st.table(chart_data)

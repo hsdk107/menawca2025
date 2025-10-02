@@ -16,6 +16,8 @@ st.markdown('''
 	Duis hendrerit aliquet leo. Proin ut dui eget diam aliquet aliquet. Sed elementum euismod nibh at posuere. 
 	Mauris malesuada tortor et congue interdum. Donec pulvinar tortor commodo tristique volutpat.''')
 
+with st.expander("Announcements",expanded=False,icon=":material/release_alert:"):
+	st.write("No new announcements.")
 cols = st.columns(2)
 with cols[0].container(height=310):
 	widgets_card()

@@ -22,11 +22,16 @@ with st.expander("Announcements",expanded=True,icon=":material/release_alert:"):
 #st.page_link("widgets.py", label="Page link (this page)", icon=":material/my_location:")
 #st.page_link("text.py", label="Page link (next page)", icon=":material/skip_next:")
 
-cols = st.columns(3)
-with cols[0]:
+
+col0, col1, col2 = st.columns(3, border=True)
+col0.write("This is the first column.")
+col1.write("This is the second column.")
+col2.write("This is the third column.")
+
+with col0:
 	st.page_link("widgets.py", label="The Widgets", icon=":material/my_location:")
-with cols[1]:
+with col1:
 	st.page_link("data.py", label="Data Table", icon=":material/skip_next:")
-with cols[2]:
+with col2:
 	st.page_link("layouts.py", label="Layouts", icon=":material/info:")
 		

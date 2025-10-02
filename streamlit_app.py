@@ -44,7 +44,7 @@ pages = [
 page = st.navigation(pages)
 page.run()
 
-with st.sidebar.container(height=310):
+'''with st.sidebar.container(height=310):
 	if page.title == "Widgets":
 		widgets_card()
 	elif page.title == "Data":
@@ -62,4 +62,4 @@ with st.sidebar.container(height=310):
 st.sidebar.caption(
 	"This app uses [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk) "
 	"and [Space Mono](https://fonts.google.com/specimen/Space+Mono) fonts."
-)
+)'''

@@ -19,7 +19,7 @@ st.markdown('''
 col0, col1, col2 = st.columns(3, border=True)
 
 with col0:
-	st.page_link("widgets.py", label="The Widgets", icon=":material/my_location:")
+	st.page_link("keynote.py", label="Keynote Speakers", icon=":material/podium:")
 with col1:
 	st.page_link("data.py", label="Data Table", icon=":material/skip_next:")
 with col2:

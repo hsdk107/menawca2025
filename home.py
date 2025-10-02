@@ -18,10 +18,15 @@ st.markdown('''
 
 with st.expander("Announcements",expanded=False,icon=":material/release_alert:"):
 	st.write("No new announcements.")
-cols = st.columns(2)
-with cols[0].container(height=310):
-	widgets_card()
-with cols[0].container(height=310):
-	dataframe_card()
-with cols[1].container(height=310):
-	layouts_card()
+
+st.page_link("widgets.py", label="Page link (this page)", icon=":material/my_location:")
+	#st.page_link("text.py", label="Page link (next page)", icon=":material/skip_next:")
+
+cols = st.columns(3)
+with cols[0]:
+	st.page_link("widgets.py", label="The Widgets", icon=":material/my_location:")
+with cols[1]:
+	st.page_link("data.py", label="Data Table", icon=":material/skip_next:")
+with cols[3]:
+	st.page_link("layouts.py", label="Layouts", icon=":material/info:")
+		

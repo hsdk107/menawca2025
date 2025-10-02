@@ -67,18 +67,78 @@ with day1:
     st.write("Campus Center (C2) Level 3, Library, Breakout Rooms")
   st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
   # *****************************************************************************************************
-  col0, col1, col2, col3 = st.columns([1,2,2,2],gap="small")
+  col0, col1, col2 = st.columns([1,2,2],gap="small")
   with col0:
     st.write("Room")
   with col1:
-    st.error("TBD")
+    st.write("TBD") #st.error("TBD")
   with col2:
-    st.error("TBD")
-  with col3:
-    st.error("TBD")
+    st.write("TBD") #st.error("TBD")
   st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
   # *****************************************************************************************************
-  st.table(chart_data)
+  col0, col1, col2 = st.columns([1,2,2],gap="small")
+  with col0:
+    st.write("Theme")
+  with col1:
+    st.write("Policy & AI")
+  with col2:
+    st.write("Student Voice, Agency & AI")
+  st.markdown("<hr style='width:75%;margin:auto;'>",unsafe_allow_html=True)
+  col0, col1, col2 = st.columns([1,2,2],gap="small")
+  with col0:
+    st.markdown('<div style="text-align: right;">2:30-3:10pm</div>', unsafe_allow_html=True)
+  with col1:
+    st.write("*The Right of Refusal: Embodying Writing Center Expertise in the Age of AI*")
+    st.write("Kelly Wilson")
+  with col2:
+    st.write("*Developing Student Voice Through AI Literacy*")
+    st.write("Thuraya Sulaiman")
+  st.markdown("<hr style='width:75%;margin:auto;'>",unsafe_allow_html=True)
+  col0, col1, col2 = st.columns([1,2,2],gap="small")
+  with col0:
+    st.markdown('<div style="text-align: right;">3:15-3:55pm</div>', unsafe_allow_html=True)
+  with col1:
+    st.write("*Transparent Practices: Acknowledging AI in Academic Assignments* (Roundtable)")
+    st.write("Owen Connor & Luleadey Worku")
+  with col2:
+    st.write("*Helping Students Choose Tools at AI's Jagged Edge*")
+    st.write("Kate Koppy")
+  st.markdown("<hr style='width:75%;margin:auto;'>",unsafe_allow_html=True)
+  col0, col1, col2 = st.columns([1,2,2],gap="small")
+  with col0:
+    st.markdown('<div style="text-align: right;">4:00-4:40pm</div>', unsafe_allow_html=True)
+  with col1:
+    st.write("*Principles and Practices for Teaching Critical AI Literacy*")
+    st.write("J. Palmeri")
+  with col2:
+    st.write("*Text-to-Speech or Speech-to-Text? Preserving Voice and Agency in AI Co-Creation*")
+    st.write("Sweta Kumari & Aieshah Arif")
+  st.markdown("<hr style='width:75%;margin:auto;'>",unsafe_allow_html=True)
+  col0, col1, col2 = st.columns([1,2,2],gap="small")
+  with col0:
+    st.markdown('<div style="text-align: right;">4:45-5:25pm</div>', unsafe_allow_html=True)
+  with col1:
+    st.write(" ")
+  with col2:
+    st.write("*Writing with AI: Saudi Voices, Shared Dilemmas*")
+    st.write("Georgios Kormpas, Abdulrahman AlHassun, & Joud Hakeem")
+  st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
+  # *****************************************************************************************************
+  col0, col1 = st.columns([2,5],gap="small")
+  with col0:
+    st.write("5:30 - 6:30pm")
+  with col1:
+    st.write("**Rest**")
+  st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
+  # *****************************************************************************************************
+  col0, col1 = st.columns([2,5],gap="small")
+  with col0:
+    st.write("6:30 - 8:30pm")
+  with col1:
+    st.write("**Conference Dinner**")
+  st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
+
+  #st.table(chart_data)
 
 # @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 # ******************* SATURDAY SCHEDULE *******************************

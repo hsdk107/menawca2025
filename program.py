@@ -78,11 +78,11 @@ with day1:
   # *****************************************************************************************************
   col0, col1, col2 = st.columns([1,2,2],gap="small")
   with col0:
-    st.write("Theme")
+    st.write(" ")
   with col1:
-    st.write("Policy & AI")
+    st.write("**Policy & AI**")
   with col2:
-    st.write("Student Voice, Agency & AI")
+    st.write("**Student Voice, Agency & AI**")
   st.markdown("<hr style='width:75%;margin:auto;'>",unsafe_allow_html=True)
   col0, col1, col2 = st.columns([1,2,2],gap="small")
   with col0:

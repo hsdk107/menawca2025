@@ -13,7 +13,7 @@ with tabs[0]:
 		st.form_submit_button("Submit button")
 	st.link_button("Link button", url="https://streamlit.io", icon=":material/open_in_new:")
 	st.page_link("widgets.py", label="Page link (this page)", icon=":material/my_location:")
-	st.page_link("text.py", label="Page link (next page)", icon=":material/skip_next:")
+	#st.page_link("text.py", label="Page link (next page)", icon=":material/skip_next:")
 
 with tabs[1]:
 	cols = st.columns(2)

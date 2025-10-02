@@ -8,16 +8,21 @@ with day1:
   st.header("Day 1: Friday October 10, 2025")
   col0, col1 = st.columns([2,5],gap="small")
   with col0:
-    st.write("9:00-10:00 am")
-      #st.code(
-      #  "9:00-10:00 am\n"
-      #  "(Registration will continue past this time if needed)"
-      #)
+    st.write("9:00 - 10:00am")
   with col1:
     st.write("**Breakfast & Registration**")
     st.write("Outside Blue Hall, Arts Center (C3)")
     st.write("*Registration will continue past this time if needed at the Library Entrance (C2)*")
 
+  st.divider()
+
+  col0, col1 = st.columns([2,5],gap="small")
+  with col0:
+    st.write("10:00am - 12:00pm")
+  with col1:
+    st.write("**Opening Ceremony**")
+    st.write("Outside Blue Hall, Arts Center (C3)")
+    
   st.table(chart_data)
 with day2:
   st.header("Day 2: Saturday October 11 2025")

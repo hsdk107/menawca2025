@@ -87,7 +87,8 @@ with day1:
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
     col0, col1, col2 = st.columns([1,2,2],gap="small")
     with col0:
-      st.markdown('<div style="text-align: right;">2:30-3:10pm</div>', unsafe_allow_html=True)
+      st.write("2:30-3:10pm")
+      #st.markdown('<div style="text-align: right;">2:30-3:10pm</div>', unsafe_allow_html=True)
     with col1:
       st.write("*The Right of Refusal: Embodying Writing Center Expertise in the Age of AI*")
       st.write("Kelly Wilson")
@@ -97,7 +98,8 @@ with day1:
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
     col0, col1, col2 = st.columns([1,2,2],gap="small")
     with col0:
-      st.markdown('<div style="text-align: right;">3:15-3:55pm</div>', unsafe_allow_html=True)
+      st.write("3:15-3:55pm")
+      #st.markdown('<div style="text-align: right;">3:15-3:55pm</div>', unsafe_allow_html=True)
     with col1:
       st.write("*Transparent Practices: Acknowledging AI in Academic Assignments* (Roundtable)")
       st.write("Owen Connor & Luleadey Worku")
@@ -107,7 +109,8 @@ with day1:
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
     col0, col1, col2 = st.columns([1,2,2],gap="small")
     with col0:
-      st.markdown('<div style="text-align: right;">4:00-4:40pm</div>', unsafe_allow_html=True)
+      st.write("4:00-4:40pm")
+      #st.markdown('<div style="text-align: right;">4:00-4:40pm</div>', unsafe_allow_html=True)
     with col1:
       st.write("*Principles and Practices for Teaching Critical AI Literacy*")
       st.write("J. Palmeri")
@@ -117,7 +120,8 @@ with day1:
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
     col0, col1, col2 = st.columns([1,2,2],gap="small")
     with col0:
-      st.markdown('<div style="text-align: right;">4:45-5:25pm</div>', unsafe_allow_html=True)
+      st.write("4:45-5:25pm")
+      #st.markdown('<div style="text-align: right;">4:45-5:25pm</div>', unsafe_allow_html=True)
     with col1:
       st.write(" ")
     with col2:

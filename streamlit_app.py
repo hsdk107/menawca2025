@@ -25,9 +25,9 @@ pages = [
 		icon=":material/podium:"
 	),
 	st.Page(
-		"data.py",
-		title="Data",
-		icon=":material/table:"
+		"program.py",
+		title="Conference Program",
+		icon=":material/calendar_clock:"
 	),
 	st.Page(
 		"layouts.py",

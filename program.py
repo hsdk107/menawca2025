@@ -3,7 +3,7 @@ import streamlit as st
 chart_data = st.session_state.chart_data
 st.header("Conference Program")
 
-st.subheading("Friday, October 10 2025")
+st.subheader("Friday, October 10 2025")
 st.table(chart_data)
 
 st.divider()

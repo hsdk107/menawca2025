@@ -254,72 +254,85 @@ with day2:
   st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
   with st.expander("Parallel Sessions",expanded=True):
     # *****************************************************************************************************
-    col0, col1, col2 = st.columns([1,2,2],gap="small")
+    col0, col1, col2, col3 = st.columns([1,2,2,2],gap="small")
     with col0:
       st.write("Room")
     with col1:
-      st.write("TBD") #st.error("TBD")
+      st.write("TBD")
     with col2:
-      st.write("TBD") #st.error("TBD")
+      st.write("TBD")
+    with col3:
+      st.write("TBD")
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
     # *****************************************************************************************************
-    col0, col1, col2 = st.columns([1,2,2],gap="small")
+    col0, col1, col2, col3 = st.columns([1,2,2,3],gap="small")
     with col0:
-      st.write("2:30-3:10pm")
-      #st.markdown('<div style="text-align: right;">2:30-3:10pm</div>', unsafe_allow_html=True)
+      st.write("2:00-2:40pm")
     with col1:
-      st.write("*The Right of Refusal: Embodying Writing Center Expertise in the Age of AI*")
-      st.write("Kelly Wilson")
+      st.write("*Policing GenAI Use: Four Approaches* (Roundtable)")
+      st.write("Kate Moore, Gulbahor Amirova, & Liane Jeschull")
     with col2:
-      st.write("*Developing Student Voice Through AI Literacy*")
-      st.write("Thuraya Sulaiman")
+      st.write("*The GenAI Edge: Transforming Writing Center Consultations*")
+      st.write("Rana R. Abuhassan")
+    with col3:
+      st.write("*(Re)Shaping the Writing Process with the 6-P Model: A Framework for Individualized AI-Integrated Writing Instruction*")
+      st.write("Chase Anthony Brame")
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
-    col0, col1, col2 = st.columns([1,2,2],gap="small")
+    col0, col1, col2, col3 = st.columns([1,2,2,2],gap="small")
     with col0:
-      st.write("3:15-3:55pm")
-      #st.markdown('<div style="text-align: right;">3:15-3:55pm</div>', unsafe_allow_html=True)
+      st.write("2:45-3:25pm")
     with col1:
-      st.write("*Transparent Practices: Acknowledging AI in Academic Assignments* (Roundtable)")
-      st.write("Owen Connor & Luleadey Worku")
+      st.write("*Reconsidering the Process Approach to Developing Writing*")
+      st.write("Anna Kascheeva")
     with col2:
-      st.write("*Helping Students Choose Tools at AI's Jagged Edge*")
-      st.write("Kate Koppy")
+      st.write("*Coaching in Writing Centers: Hype or Game-Changer?*")
+      st.write("Maimuna Aghliw")
+    with col3:
+      st.write("*Teaching STEM Students to Write with and Without AI*")
+      st.write("Christopher Hill & Sana Chakroun")
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
-    col0, col1, col2 = st.columns([1,2,2],gap="small")
+    col0, col1, col2, col3 = st.columns([1,2,2,2],gap="small")
     with col0:
-      st.write("4:00-4:40pm")
-      #st.markdown('<div style="text-align: right;">4:00-4:40pm</div>', unsafe_allow_html=True)
+      st.write("3:30-4:10pm")
     with col1:
-      st.write("*Principles and Practices for Teaching Critical AI Literacy*")
-      st.write("J. Palmeri")
+      st.write("*Engaging with GenAI in Scientific Writing: Opportunities and Caveats*")
+      st.write("Hind Saddiki")
     with col2:
-      st.write("*Text-to-Speech or Speech-to-Text? Preserving Voice and Agency in AI Co-Creation*")
-      st.write("Sweta Kumari & Aieshah Arif")
+      st.write("*Chatbots, ESL Writing, Citation, Annotated Bibliography, WAC, Academic Writing*")
+      st.write("Inas Y. Mahfouz")
+    with col3:
+      st.write("*Students’ Engagement with a Specialized AI Research Assistant Tool*")
+      st.write("Besma Allagui")
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
-    col0, col1, col2 = st.columns([1,2,2],gap="small")
+    col0, col1, col2, col3 = st.columns([1,2,2,2],gap="small")
     with col0:
-      st.write("4:45-5:25pm")
-      #st.markdown('<div style="text-align: right;">4:45-5:25pm</div>', unsafe_allow_html=True)
+      st.write("4:15-4:55pm")
     with col1:
-      st.write(" ")
+      st.write("*Engagement Strategies in Human-Written and AI-Generated Academic Essays: A Corpus-Based Study*")
+      st.write("Sharif Alghazo")
     with col2:
-      st.write("*Writing with AI: Saudi Voices, Shared Dilemmas*")
-      st.write("Georgios Kormpas, Abdulrahman AlHassun, & Joud Hakeem")
+      st.write("*Reflecting on Approaches to First-Year Writing Using Copilot*")
+      st.write("Shauna Loej & Sahar Mari")
+    with col3:
+      st.write("(1) *AI in Action: Perspectives from Peer Tutors* (Pecha-Kucha)")
+      st.write("Malak Elmallah, Audre Knepp, & Gaya Menon")
+      st.write("(2) *Sociolinguistic Sexism and Gender-Unspecified Generative AI: Biased Linguistic Practices* (Pecha-Kucha)")
+      st.write("Mariami Akopian")
+      st.write("(3) *Voice and Style: A Personal Statement Writing Workshop Experiment* (Pecha-Kucha)")
+      st.write("Sheren Saad")
+      st.write("(4) *Co-Creating Graphic Novels with AI* (Show & Tell)")
+      st.write("Bianca Arkeen & Fahad Rizwan")
+    st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
     
   # *****************************************************************************************************
   col0, col1 = st.columns([2,5],gap="small")
   with col0:
-    st.write("5:30 - 6:30pm")
+    st.write("5:00 - 6:00pm")
   with col1:
-    st.write("**Rest**")
+    st.write("**Closing Ceremony**")
+    st.write("Faculty Hub, Library, Level 3, Campus Center (C2)")
   st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
-  # *****************************************************************************************************
-  col0, col1 = st.columns([2,5],gap="small")
-  with col0:
-    st.write("6:30 - 8:30pm")
-  with col1:
-    st.write("**Conference Dinner**")
-  st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
+
 
 # @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 # ******************* SUNDAY SCHEDULE *******************************

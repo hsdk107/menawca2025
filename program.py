@@ -369,33 +369,23 @@ with day3:
     # *****************************************************************************************************
     col0, col1, col2 = st.columns([1,2,2],gap="small")
     with col0:
-      st.write("9:30-10:55")
-    with col1:
-      st.write("*Title*")
-      st.write("Presenter")
-    with col2:
-      st.write("*Title*")
-      st.write("Presenter")
-    st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
-    col0, col1, col2 = st.columns([1,2,2],gap="small")
-    with col0:
       st.write("9:30-10:25")
     with col1:
-      st.write("*Title*")
-      st.write("Presenter")
+      st.write("*Teaching AI-Enhanced Writing: A Workshop on Prompting, Research, and Revision Strategies for Student Writers*")
+      st.write("Sana Chakroun, Sweta Bharadwaj, & Christopher Hill")
     with col2:
-      st.write("*Title*")
-      st.write("Presenter")
+      st.write("*Natural 20: Crafting Voice Through D&D Roleplay*")
+      st.write("Juan Jose Saenz")
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
     col0, col1, col2 = st.columns([1,2,2],gap="small")
     with col0:
       st.write("10:30-11:25")
     with col1:
-      st.write("*Title*")
-      st.write("Presenter")
+      st.write("*Research Reimagined through AI*")
+      st.write("Amani Magid & Grace Adeneye")
     with col2:
-      st.write("*Title*")
-      st.write("Presenter")
+      st.write("*Training Consultants to Address AI Use in Students’ Writing*")
+      st.write("Avasha Rambiritch & Grace Pregent")
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
   # *****************************************************************************************************
   col0, col1 = st.columns([2,5],gap="small")

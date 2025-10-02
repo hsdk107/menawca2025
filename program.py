@@ -8,8 +8,9 @@ with day1:
   st.header("Day 1: Friday October 10, 2025")
   col0, col1 = st.columns([1,3],gap="small")
   with col0:
-    st.write("9:00 am - 10:00 am")
-    st.write("(Registration will continue past this time if needed")
+    with st.container(border=True):
+      st.write("9:00 am - 10:00 am")
+      st.write("(Registration will continue past this time if needed")
   with col1:
     st.write("**Breakfast & Registration**")
     st.write("Outside Blue Hall, Arts Center (C3)")

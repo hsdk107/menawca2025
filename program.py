@@ -265,7 +265,7 @@ with day2:
       st.write("TBD")
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
     # *****************************************************************************************************
-    col0, col1, col2, col3 = st.columns([1,2,2,3],gap="small")
+    col0, col1, col2, col3 = st.columns([1,2,2,2],gap="small")
     with col0:
       st.write("2:00-2:40pm")
     with col1:
@@ -339,4 +339,71 @@ with day2:
 # @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 with day3:
   st.header("Day 3: Sunday October 12 2025")
-  st.table(chart_data)
+  st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
+  # *****************************************************************************************************
+  col0, col1 = st.columns([2,5],gap="small")
+  with col0:
+    st.write("9:00 - 9:30am")
+  with col1:
+    st.write("**Breakfast & Registration**")
+    st.write("Faculty Hub, Library, Level 3, Campus Center (C2)")
+    st.write("*Registration will continue past this time if needed at the Library Entrance (C2)*")
+  st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
+  col0, col1 = st.columns([2,5],gap="small")
+  with col0:
+    st.write("9:30am - 12:00pm")
+  with col1:
+    st.write("**Parallel Sessions:** ***Workshops***")
+    st.write("Campus Center (C2) Level 3, Library, Breakout Rooms")
+  st.markdown("<hr style='width:75%;margin:auto;'>",unsafe_allow_html=True)
+  with st.expander("Parallel Sessions",expanded=True):
+    # *****************************************************************************************************
+    col0, col1, col2 = st.columns([1,2,2],gap="small")
+    with col0:
+      st.write("Room")
+    with col1:
+      st.write("TBD") #st.error("TBD")
+    with col2:
+      st.write("TBD") #st.error("TBD")
+    st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
+    # *****************************************************************************************************
+    col0, col1, col2 = st.columns([1,2,2],gap="small")
+    with col0:
+      st.write("9:30-10:55")
+    with col1:
+      st.write("*Title*")
+      st.write("Presenter")
+    with col2:
+      st.write("*Title*")
+      st.write("Presenter")
+    st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
+    col0, col1, col2 = st.columns([1,2,2],gap="small")
+    with col0:
+      st.write("9:30-10:25")
+    with col1:
+      st.write("*Title*")
+      st.write("Presenter")
+    with col2:
+      st.write("*Title*")
+      st.write("Presenter")
+    st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
+    col0, col1, col2 = st.columns([1,2,2],gap="small")
+    with col0:
+      st.write("10:30-11:25")
+    with col1:
+      st.write("*Title*")
+      st.write("Presenter")
+    with col2:
+      st.write("*Title*")
+      st.write("Presenter")
+    st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
+  # *****************************************************************************************************
+  col0, col1 = st.columns([2,5],gap="small")
+  with col0:
+    st.write("11:30am - 12:00pm")
+  with col1:
+    st.write("**Presidential Perspectives**")
+    st.write("The MENAWCA Presidents: Sahar Mari, Kelly Wilson, Nicole Abiad, & Ryan McDonald")
+    st.write("Faculty Hub, Library, Level 3, Campus Center (C2)")
+  st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
+

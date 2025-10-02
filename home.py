@@ -11,7 +11,7 @@ st.header("Co-creation with AI: Navigating New Horizons in Writing and Learning"
 st.markdown('''
 MENAWCA’s 9th biennial conference is a platform for instructors, tutors, peer tutors, center directors, researchers 
 and other professionals supporting student writers in the MENA region, to share innovative practices and research.''')
-st.write("This year's conference is hosted at [New York University Abu Dhabi](https://nyuad.nyu.edu/en/) from *10 to 12 October, 2025*.")
+st.write("This year's conference is hosted at [New York University Abu Dhabi](https://nyuad.nyu.edu/en/) from **10 to 12 October, 2025**.")
 
 st.markdown('''
 	Writing centers and programs focus on the writer, encouraging agency, empowerment, 
@@ -21,7 +21,7 @@ st.markdown('''
 	students are turning to it for support. While some are engaging with GenAI creatively and critically, 
 	many writers often rely on these tools to generate text. As such, writing centers 
 	and writing programs are now at a crossroads of praxis, determining when, where, 
-	and to what extent GenAI should be part of composition moving forward. 
+	and to what extent GenAI should be part of composition moving forward.\n\n 
 	These considerations add to the existing complexities and nuances of academic writing, especially in the MENA region. 
 	Where it is essential to consider the ways in which writers can continue to develop their own voices, 
 	it is also becoming necessary to factor in GenAI. 

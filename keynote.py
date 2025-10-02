@@ -21,15 +21,15 @@ with cols[1].container(border=True):
     ''')
 with st.expander("AI Awareness, Exploration, and Responsibility",expanded=True):
 	st.markdown('''
-		AI is everywhere, and the values embedded in its technology don't necessarily align with the values of writing pedagogy. 
-		The quick and easy answers of AI can undermine the deliberative conversations about process in the writing center. 
-		How can we guide students towards productive, co-creative uses of AI that don't sacrifice their learning, development, and thinking? 
-		This challenge is particularly complex in the MENA region, where academic writing already navigates multiple linguistic and cultural contexts. 
-		This talk offers a path forward for writing teachers through three interconnected approaches: 
-		developing AI-awareness by learning how students actually use AI; fostering guided exploration of AI that preserves space for learning; 
-		and emphasizing our responsibilities to each other when we write. Drawing on emerging practices from writing teachers, 
-		I'll share specific strategies for helping students engage with AI as a collaborative partner. 
-		Rather than viewing AI as a threat, we can reframe it as an opportunity to revisit our practices and deepen our commitment to empowering writers.''')
+	AI is everywhere, and the values embedded in its technology don't necessarily align with the values of writing pedagogy. 
+	The quick and easy answers of AI can undermine the deliberative conversations about process in the writing center. 
+	How can we guide students towards productive, co-creative uses of AI that don't sacrifice their learning, development, and thinking? 
+	This challenge is particularly complex in the MENA region, where academic writing already navigates multiple linguistic and cultural contexts. 
+	This talk offers a path forward for writing teachers through three interconnected approaches: 
+	developing AI-awareness by learning how students actually use AI; fostering guided exploration of AI that preserves space for learning; 
+	and emphasizing our responsibilities to each other when we write. Drawing on emerging practices from writing teachers, 
+	I'll share specific strategies for helping students engage with AI as a collaborative partner. 
+	Rather than viewing AI as a threat, we can reframe it as an opportunity to revisit our practices and deepen our commitment to empowering writers.''')
 st.divider()
 
 cols = st.columns([1,3])

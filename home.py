@@ -27,6 +27,6 @@ with cols[0]:
 	st.page_link("widgets.py", label="The Widgets", icon=":material/my_location:")
 with cols[1]:
 	st.page_link("data.py", label="Data Table", icon=":material/skip_next:")
-with cols[3]:
+with cols[2]:
 	st.page_link("layouts.py", label="Layouts", icon=":material/info:")
 		

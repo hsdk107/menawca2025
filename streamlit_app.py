@@ -26,7 +26,7 @@ pages = [
 	),
 	st.Page(
 		"widgets.py",
-		title="The Widgets",
+		title="Widgets",
 		icon=":material/widgets:"
 	),
 	st.Page(

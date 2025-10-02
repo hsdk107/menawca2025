@@ -16,7 +16,7 @@ with day1:
   with col1:
     st.write("**Breakfast & Registration**")
     st.write("Outside Blue Hall, Arts Center (C3)")
-    st.write("Registration will continue past this time if needed at the Library Entrance (C2)")
+    st.write("*Registration will continue past this time if needed at the Library Entrance (C2)*")
 
   st.table(chart_data)
 with day2:

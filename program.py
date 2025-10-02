@@ -7,6 +7,7 @@ day1, day2, day3 = st.tabs(["**Friday October 10**", "**Saturday, October 11**",
 with day1:
   st.header("Day 1: Friday October 10, 2025")
   col0, col1 = st.columns([2,5],gap="small")
+  st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
   with col0:
     st.write("9:00 - 10:00am")
   with col1:

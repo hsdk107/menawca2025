@@ -16,13 +16,6 @@ st.markdown('''
 	Duis hendrerit aliquet leo. Proin ut dui eget diam aliquet aliquet. Sed elementum euismod nibh at posuere. 
 	Mauris malesuada tortor et congue interdum. Donec pulvinar tortor commodo tristique volutpat.''')
 
-with st.expander("Announcements",expanded=True,icon=":material/release_alert:"):
-	st.write("No new announcements.")
-
-#st.page_link("widgets.py", label="Page link (this page)", icon=":material/my_location:")
-#st.page_link("text.py", label="Page link (next page)", icon=":material/skip_next:")
-
-
 col0, col1, col2 = st.columns(3, border=True)
 
 with col0:
@@ -31,4 +24,7 @@ with col1:
 	st.page_link("data.py", label="Data Table", icon=":material/skip_next:")
 with col2:
 	st.page_link("layouts.py", label="Layouts", icon=":material/info:")
+
+with st.expander("Announcements",expanded=True,icon=":material/release_alert:"):
+	st.write("No new announcements.")
 		

@@ -14,7 +14,7 @@ Substacks [AI & How We Teach Writing](https://aiandhowweteach.substack.com/) and
 With Marc Watkins and Derek Bruff, she is writing [The Norton Guide to AI-Aware Teaching](https://seagull.wwnorton.com/aiaware/guide), 
 due out in Fall 2026. Her research monograph in progress, *Androids, Spirits and Chatbots*, 
 examines why and how humans have sought to automate writing across history.''')
-with st.expander("AI Awareness, Exploration, and Responsibility",expanded=True):
+with st.expander("Title: AI Awareness, Exploration, and Responsibility",expanded=True):
 	st.markdown('''
 	AI is everywhere, and the values embedded in its technology don't necessarily align with the values of writing pedagogy. 
 	The quick and easy answers of AI can undermine the deliberative conversations about process in the writing center. 

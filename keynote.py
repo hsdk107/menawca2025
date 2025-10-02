@@ -51,14 +51,14 @@ with st.expander("Title: Reimagining the Writing Center in the Age of Generative
 	empowers students to think, create, and write with confidence.''')
 st.divider()
 
-cols = st.columns([1,3])
-with cols[0]:
-  st.subheader("Marion Wrenn")
-  st.markdown("*Local Speaker*")
-with cols[1].container(border=True):
-    st.markdown('''
-    Marion Wrenn, PhD, is a poet, essayist, and the Executive Director of Writing at NYUAD, where she helped found the Writing Program and the Writing Center. 
-    She has taught writing at NYU NY, Princeton University, and Parsons School of Design in her 30-year career in the field of Writing Studies. 
-    Her research moves across creative writing, journalism history, and the study of media and popular culture. She co-edits *The Women’s Review of Books*, newly launched at NYUAD, 
-    as well as the literary magazine *Painted Bride Quarterly*, for which she co-hosts and co-produces the literary podcast *The Slush Pile*.
-    ''')
+st.write("**Marion Wrenn, PhD** ***(Local Speaker)*** is is a poet, essayist, and the Executive Director of Writing at NYUAD, where she helped found the Writing Program and the Writing Center.")
+st.markdown('''
+Marion Wrenn, PhD, is a poet, essayist, and the Executive Director of Writing at NYUAD, where she helped found the Writing Program and the Writing Center. 
+She has taught writing at NYU NY, Princeton University, and Parsons School of Design in her 30-year career in the field of Writing Studies. 
+Her research moves across creative writing, journalism history, and the study of media and popular culture. She co-edits *The Women’s Review of Books*, newly launched at NYUAD, 
+as well as the literary magazine *Painted Bride Quarterly*, for which she co-hosts and co-produces the literary podcast *The Slush Pile*.''')
+with st.expander("Title: Naming What We Know",expanded=True):
+	st.markdown('''
+	Ten years ago the anthology *Naming What We Know* set out to define the core knowledge that infomed and threaded through writing studies and writing pedagogy. 
+	How might the project of identifying knowledge in the discipline -- and of the discipline-- help us re-orient writing studies toward the challenges 
+	of ambient ai? This talk will address the need to "name what we know" about good writing across the disciplines in an era defined by technological disruptions.''')

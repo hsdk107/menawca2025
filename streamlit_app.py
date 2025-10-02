@@ -1,17 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-#from cards import (
-#	widgets_card,
-#	dataframe_card,
-#	layouts_card
-#)
-
-if "init" not in st.session_state:
-	st.session_state.chart_data = pd.DataFrame(
-		np.random.randn(20, 3), columns=["a", "b", "c"]
-	)
-	st.session_state.init = True
 
 pages = [
 	st.Page(

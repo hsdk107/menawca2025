@@ -1,8 +1,6 @@
 import streamlit as st
 
 st.header("Keynote Speakers")
-
-st.link_button("Link button", url="https://streamlit.io", icon=":material/open_in_new:")
 	
 cols = st.columns([1,3])
 with cols[0]:

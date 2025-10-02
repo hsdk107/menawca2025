@@ -21,7 +21,7 @@ col0, col1, col2 = st.columns(3, border=True)
 with col0:
 	st.page_link("keynote.py", label="Keynote Speakers", icon=":material/podium:")
 with col1:
-	st.page_link("program.py", label="Conference Program", icon=":material/calendar_clock:")
+	st.page_link("program.py", label="Program Schedule", icon=":material/calendar_clock:")
 with col2:
 	st.page_link("layouts.py", label="Layouts", icon=":material/info:")
 

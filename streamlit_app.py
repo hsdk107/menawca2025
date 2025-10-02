@@ -20,7 +20,7 @@ pages = [
 	),
 	st.Page(
 		"abstracts.py",
-		title="Speakers|Abstracts",
+		title="Speaker Abstracts",
 		icon=":material/article_person:"
 	),
 ]

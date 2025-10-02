@@ -6,10 +6,10 @@ st.header("Conference Program")
 day1, day2, day3 = st.tabs(["**Friday October 10**", "**Saturday, October 11**", "**Sunday, October 12**"])
 with day1:
   st.header("Day 1: Friday October 10, 2025")
-  col0, col1 = st.columns([1,3],gap="small")
+  col0, col1 = st.columns([2,5],gap="small")
   with col0:
     with st.container(border=True):
-      st.info("9:00-10:00 am")
+      st.write("9:00-10:00 am")
       #st.code(
       #  "9:00-10:00 am\n"
       #  "(Registration will continue past this time if needed)"

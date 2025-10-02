@@ -177,12 +177,14 @@ with day2:
   st.markdown("<hr style='width:75%;margin:auto;'>",unsafe_allow_html=True)
   with st.expander("Parallel Sessions",expanded=True):
     # *****************************************************************************************************
-    col0, col1, col2 = st.columns([1,2,2],gap="small")
+    col0, col1, col2, col3 = st.columns([1,2,2,2],gap="small")
     with col0:
       st.write("Room")
     with col1:
       st.write("TBD") #st.error("TBD")
     with col2:
+      st.write("TBD") #st.error("TBD")
+    with col3:
       st.write("TBD") #st.error("TBD")
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
     # *****************************************************************************************************
@@ -190,69 +192,64 @@ with day2:
     with col0:
       st.write(" ")
     with col1:
-      st.write("**Policy & AI**")
+      st.write("**Student Motivation & Craft with AI**")
     with col2:
-      st.write("**Student Voice, Agency & AI**")
+      st.write("**Experiences with AI**")
+    with col3:
+      st.write("**Perceptions of AI**")
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
-    col0, col1, col2 = st.columns([1,2,2],gap="small")
+    col0, col1, col2, col3 = st.columns([1,2,2,2],gap="small")
     with col0:
-      st.write("2:30-3:10pm")
-      #st.markdown('<div style="text-align: right;">2:30-3:10pm</div>', unsafe_allow_html=True)
+      st.write("10:45-11:25am")
     with col1:
-      st.write("*The Right of Refusal: Embodying Writing Center Expertise in the Age of AI*")
-      st.write("Kelly Wilson")
+      st.write("*Reshaping Stakeholder Collaboration for Student Success in the Age of AI* (Roundtable)")
+      st.write("Naqaa Abbas & Luleadey Worku")
     with col2:
-      st.write("*Developing Student Voice Through AI Literacy*")
-      st.write("Thuraya Sulaiman")
+      st.write("*Centering Human Voices in a Co-Creative Approach to Writing with AI*")
+      st.write("Dima Yousef & Amira El-Soussi")
+    with col3:
+      st.write("*Students’ Perception on GenAI in College Writing*")
+      st.write("Nattaporn Luangpipat")
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
-    col0, col1, col2 = st.columns([1,2,2],gap="small")
+    col0, col1, col2, col3 = st.columns([1,2,2,2],gap="small")
     with col0:
-      st.write("3:15-3:55pm")
-      #st.markdown('<div style="text-align: right;">3:15-3:55pm</div>', unsafe_allow_html=True)
+      st.write("11:30-12:10pm")
     with col1:
-      st.write("*Transparent Practices: Acknowledging AI in Academic Assignments* (Roundtable)")
-      st.write("Owen Connor & Luleadey Worku")
+      st.write("*Strategies to Enhance Student Engagement with the Writing Center*")
+      st.write("Muna Al Badaai & Nawal Al Amri")
     with col2:
-      st.write("*Helping Students Choose Tools at AI's Jagged Edge*")
-      st.write("Kate Koppy")
+      st.write("*Rewriting the Future: AI and Human Collaboration in Writing Center Pedagogy*")
+      st.write("Lara Hamidi")
+    with col3:
+      st.write("*Does Authenticity in Writing Matter?*")
+      st.write("Tatiana Golechkova")
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
-    col0, col1, col2 = st.columns([1,2,2],gap="small")
+    col0, col1, col2, col3 = st.columns([1,2,2,2],gap="small")
     with col0:
-      st.write("4:00-4:40pm")
-      #st.markdown('<div style="text-align: right;">4:00-4:40pm</div>', unsafe_allow_html=True)
+      st.write("12:15-12:55pm")
     with col1:
-      st.write("*Principles and Practices for Teaching Critical AI Literacy*")
-      st.write("J. Palmeri")
+      st.write("*On Shame and Pedagogy in an AI-Suffused World*")
+      st.write("Mitchell Atkinson III")
     with col2:
-      st.write("*Text-to-Speech or Speech-to-Text? Preserving Voice and Agency in AI Co-Creation*")
-      st.write("Sweta Kumari & Aieshah Arif")
-    st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
-    col0, col1, col2 = st.columns([1,2,2],gap="small")
-    with col0:
-      st.write("4:45-5:25pm")
-      #st.markdown('<div style="text-align: right;">4:45-5:25pm</div>', unsafe_allow_html=True)
-    with col1:
       st.write(" ")
-    with col2:
-      st.write("*Writing with AI: Saudi Voices, Shared Dilemmas*")
-      st.write("Georgios Kormpas, Abdulrahman AlHassun, & Joud Hakeem")
-    
-  # *****************************************************************************************************
+    with col3:
+      st.write("*Students’ Perspectives on Hybrid AI-Human Peer Review*")
+      st.write("Neslihan Bilikozen & Hoda Nada")
   # *****************************************************************************************************
   col0, col1 = st.columns([2,5],gap="small")
   with col0:
-    st.write("12:00 - 2:30pm")
+    st.write("1:00 - 2:00pm")
   with col1:
-    st.write("**Lunch and Prayer Break**")
-    st.write("Torch Club (D2)")
+    st.write("**Lunch Break**")
+    st.write("Library Lobby (C2) 3rd floor")
     st.write("*Prayer Rooms in C2 Ground Floor*")
   st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
   # *****************************************************************************************************
   col0, col1 = st.columns([2,5],gap="small")
   with col0:
-    st.write("2:30 - 5:30pm")
+    st.write("2:00 - 5:00pm")
   with col1:
-    st.write("**Policy, Voice and Agency**")
+    st.write("**Parallel Sessions:** ***Using AI in Teaching and Learning***")
     st.write("Campus Center (C2) Level 3, Library, Breakout Rooms")
   st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
   with st.expander("Parallel Sessions",expanded=True):
@@ -266,14 +263,6 @@ with day2:
       st.write("TBD") #st.error("TBD")
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
     # *****************************************************************************************************
-    col0, col1, col2 = st.columns([1,2,2],gap="small")
-    with col0:
-      st.write(" ")
-    with col1:
-      st.write("**Policy & AI**")
-    with col2:
-      st.write("**Student Voice, Agency & AI**")
-    st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
     col0, col1, col2 = st.columns([1,2,2],gap="small")
     with col0:
       st.write("2:30-3:10pm")

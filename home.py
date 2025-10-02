@@ -24,9 +24,6 @@ with st.expander("Announcements",expanded=True,icon=":material/release_alert:"):
 
 
 col0, col1, col2 = st.columns(3, border=True)
-col0.write("This is the first column.")
-col1.write("This is the second column.")
-col2.write("This is the third column.")
 
 with col0:
 	st.page_link("widgets.py", label="The Widgets", icon=":material/my_location:")

@@ -4,7 +4,7 @@ st.header("Keynote Speakers")
 
 st.link_button("Link button", url="https://streamlit.io", icon=":material/open_in_new:")
 	
-cols = st.columns(2)
+cols = st.columns(2,[1,3])
 with cols[0]:
   st.subheader("Annette Vee")
   st.markdown("*Keynote Speaker*")
@@ -24,7 +24,7 @@ with cols[1].container(border=True):
   
 st.divider()
 
-cols = st.columns(2)
+cols = st.columns(2,[1,3])
 with cols[0]:
   st.subheader("Maria Eleftheriou")
   st.markdown("*Regional Speaker*")
@@ -39,7 +39,7 @@ with cols[1].container(border=True):
 
 st.divider()
 
-cols = st.columns(2)
+cols = st.columns(2,[1,3])
 with cols[0]:
   st.subheader("Marion Wrenn")
   st.markdown("*Local Speaker*")

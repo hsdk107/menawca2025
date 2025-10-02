@@ -39,7 +39,9 @@ pages = [
 page = st.navigation(pages)
 page.run()
 
-#with st.sidebar.container(height=310):
+with st.sidebar.container(height=310):
+	with st.expander("Announcements",expanded=True,icon=":material/release_alert:"):
+		st.write("No new announcements.")
 #	if page.title == "Widgets":
 #		widgets_card()
 #	elif page.title == "Data":
@@ -54,7 +56,7 @@ page.run()
 #			"elements from each page so you can see the sidebar theme."
 #		)
 
-#st.sidebar.caption(
-#	"This app uses [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk) "
-#	"and [Space Mono](https://fonts.google.com/specimen/Space+Mono) fonts."
-#)
+st.sidebar.caption(
+	"This app uses the [Anthropic](https://docs.anthropic.com/en/home)-inspired light theme, [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk) "
+	"and [Space Mono](https://fonts.google.com/specimen/Space+Mono) fonts."
+)

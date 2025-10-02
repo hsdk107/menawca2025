@@ -13,7 +13,7 @@ with day1:
     st.write("**Breakfast & Registration**")
     st.write("Outside Blue Hall, Arts Center (C3)")
     st.write("*Registration will continue past this time if needed at the Library Entrance (C2)*")
-st.markdown("<hr style='margin:0;'>")
+  st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
   #st.divider()
 
   col0, col1 = st.columns([2,5],gap="small")

@@ -1,9 +1,9 @@
 import streamlit as st
-from cards import (
-	widgets_card,
-	dataframe_card,
-	layouts_card
-)
+#from cards import (
+#	widgets_card,
+#	dataframe_card,
+#	layouts_card
+#)
 
 st.title("MENAWCA 2025")
 st.header("Co-creation with AI: Navigating New Horizons in Writing and Learning")

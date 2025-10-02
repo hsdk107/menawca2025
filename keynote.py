@@ -1,24 +1,19 @@
 import streamlit as st
 
 st.header("Keynote Speakers")
-	
-cols = st.columns([1,3])
-with cols[0]:
-  st.subheader("Annette Vee")
-  st.markdown("*Keynote Speaker*")
-with cols[1].container(border=True):
-    st.markdown('''
-    Annette Vee is Associate Professor of English at University of Pittsburgh, where she recently served six years as the Director of Composition. 
-    At Pitt, she’s facilitated research groups and teaching circles on AI,  an AI across the Disciplines program and advised the CIO on AI policy; 
-    outside of Pitt, she gives workshops, keynotes, and advice related to AI to faculty, students, and higher ed administrators. 
-    Her research is generally at the intersection of writing and computation and often includes pedagogy. 
-    Her work includes: *Coding Literacy: How Computer Programming is Changing Writing* (MIT Press, 2017);
-    [TextGenEd: Teaching with Text Generation Technologies](https://wac.colostate.edu/repository/collections/textgened/) (WAC Clearinghouse, 2023, 
-    with [updates in 20024 and 2025](https://wac.colostate.edu/repository/collections/continuing-experiments/)); 
-    Substacks [AI & How We Teach Writing](https://aiandhowweteach.substack.com/) and [Computation & Writing](https://annettevee.substack.com/). 
-    With Marc Watkins and Derek Bruff, she is writing [The Norton Guide to AI-Aware Teaching](https://seagull.wwnorton.com/aiaware/guide), 
-    due out in Fall 2026. Her research monograph in progress, *Androids, Spirits and Chatbots*, examines why and how humans have sought to automate writing across history.
-    ''')
+
+st.write("**Annette Vee** ***(Keynote Speaker)*** is Associate Professor of English at University of Pittsburgh, where she recently served six years as the Director of Composition.")
+st.markdown('''
+At Pitt, she’s facilitated research groups and teaching circles on AI,  an AI across the Disciplines program and advised the CIO on AI policy; 
+outside of Pitt, she gives workshops, keynotes, and advice related to AI to faculty, students, and higher ed administrators. 
+Her research is generally at the intersection of writing and computation and often includes pedagogy. 
+Her work includes: *Coding Literacy: How Computer Programming is Changing Writing* (MIT Press, 2017);
+[TextGenEd: Teaching with Text Generation Technologies](https://wac.colostate.edu/repository/collections/textgened/) (WAC Clearinghouse, 2023, 
+with [updates in 20024 and 2025](https://wac.colostate.edu/repository/collections/continuing-experiments/)); 
+Substacks [AI & How We Teach Writing](https://aiandhowweteach.substack.com/) and [Computation & Writing](https://annettevee.substack.com/). 
+With Marc Watkins and Derek Bruff, she is writing [The Norton Guide to AI-Aware Teaching](https://seagull.wwnorton.com/aiaware/guide), 
+due out in Fall 2026. Her research monograph in progress, *Androids, Spirits and Chatbots*, 
+examines why and how humans have sought to automate writing across history.''')
 with st.expander("AI Awareness, Exploration, and Responsibility",expanded=True):
 	st.markdown('''
 	AI is everywhere, and the values embedded in its technology don't necessarily align with the values of writing pedagogy. 

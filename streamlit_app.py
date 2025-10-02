@@ -20,9 +20,9 @@ pages = [
 		icon=":material/home:"
 	),
 	st.Page(
-		"widgets.py",
-		title="Widgets",
-		icon=":material/widgets:"
+		"keynote.py",
+		title="Keynote Speakers",
+		icon=":material/podium:"
 	),
 	st.Page(
 		"data.py",

@@ -66,7 +66,7 @@ with day1:
     st.write("**Policy, Voice and Agency**")
     st.write("Campus Center (C2) Level 3, Library, Breakout Rooms")
   st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
-  with st.expander("Parallel Sessions"):
+  with st.expander("Parallel Sessions",expanded=True):
     # *****************************************************************************************************
     col0, col1, col2 = st.columns([1,2,2],gap="small")
     with col0:

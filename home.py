@@ -5,13 +5,16 @@ from cards import (
 	layouts_card
 )
 
-st.title("Streamlit element explorer")
+st.title("MENAWCA 2025")
+st.header("Co-creation with AI: Navigating New Horizons in Writing and Learning")
 
-st.markdown(
-	"This app displays most of Streamlit's built-in elements so you can "
-	"conveniently explore how they look with different theming configurations "
-	"applied."
-)
+
+st.markdown('''
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed elit sed dui pulvinar tincidunt.
+	Integer consequat turpis sit amet orci ullamcorper consequat. Duis volutpat sodales volutpat. 
+	Morbi mattis metus at diam tempor efficitur vitae et purus. Ut sit amet justo a mauris vulputate auctor. 
+	Duis hendrerit aliquet leo. Proin ut dui eget diam aliquet aliquet. Sed elementum euismod nibh at posuere. 
+	Mauris malesuada tortor et congue interdum. Donec pulvinar tortor commodo tristique volutpat.''')
 
 cols = st.columns(2)
 with cols[0].container(height=310):

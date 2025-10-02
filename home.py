@@ -1,13 +1,8 @@
 import streamlit as st
 from cards import (
 	widgets_card,
-	text_card,
 	dataframe_card,
-	charts_card,
-	media_card,
-	layouts_card,
-	chat_card,
-	status_card
+	layouts_card
 )
 
 st.title("Streamlit element explorer")

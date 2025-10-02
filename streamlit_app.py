@@ -19,9 +19,9 @@ pages = [
 		icon=":material/calendar_clock:"
 	),
 	st.Page(
-		"layouts.py",
-		title="Layouts",
-		icon=":material/dashboard:"
+		"abstracts.py",
+		title="Speakers|Abstracts",
+		icon=":material/article_person:"
 	),
 ]
 

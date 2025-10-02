@@ -26,7 +26,7 @@ pages = [
 	),
 	st.Page(
 		"program.py",
-		title="Conference Program",
+		title="Program Schedule",
 		icon=":material/calendar_clock:"
 	),
 	st.Page(

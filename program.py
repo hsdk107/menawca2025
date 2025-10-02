@@ -20,13 +20,6 @@ with day1:
     st.write("10:00am - 12:00pm")
   with col1:
     st.write("**Opening Ceremony**")
-    st.write("Outside Blue Hall, Arts Center (C3)")
-  st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
-  col0, col1 = st.columns([2,5],gap="small")
-  with col0:
-    st.write("10:00am - 12:00pm")
-  with col1:
-    st.write("**Opening Ceremony**")
     st.write("Outside Blue Hall, Arts Center (C3)")  
   col0, col1 = st.columns([2,5],gap="small")
   with col0:

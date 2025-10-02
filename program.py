@@ -21,7 +21,7 @@ with day1:
   with col1:
     st.write("**Opening Ceremony**")
     st.write("Outside Blue Hall, Arts Center (C3)")
-  st.markdown("<hr style='width:50%;margin:auto;'>",unsafe_allow_html=True)
+  st.markdown("<hr style='width:75%;margin:auto;'>",unsafe_allow_html=True)
   col0, col1 = st.columns([2,5],gap="small")
   with col0:
     st.markdown('<div style="text-align: right;">10:00-10:15am</div>', unsafe_allow_html=True)

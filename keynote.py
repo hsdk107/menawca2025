@@ -7,10 +7,8 @@ with col0:
 	st.image("img/annettevee.png")
 with col1:
 	st.write("**Annette Vee** ***(Keynote Speaker)*** is Associate Professor of English at University of Pittsburgh, where she recently served six years as the Director of Composition.")
-
-st.markdown('''
-At Pitt, she’s facilitated research groups and teaching circles on AI,  an AI across the Disciplines program and advised the CIO on AI policy; 
-outside of Pitt, she gives workshops, keynotes, and advice related to AI to faculty, students, and higher ed administrators. 
+	st.write("At Pitt, she’s facilitated research groups and teaching circles on AI,  an AI across the Disciplines program and advised the CIO on AI policy; outside of Pitt, she gives workshops, keynotes, and advice related to AI to faculty, students, and higher ed administrators.")
+st.markdown(''' 
 Her research is generally at the intersection of writing and computation and often includes pedagogy. 
 Her work includes: *Coding Literacy: How Computer Programming is Changing Writing* (MIT Press, 2017);
 [TextGenEd: Teaching with Text Generation Technologies](https://wac.colostate.edu/repository/collections/textgened/) (WAC Clearinghouse, 2023, 

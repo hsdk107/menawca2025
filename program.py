@@ -29,33 +29,39 @@ with day1:
   st.markdown("<hr style='width:75%;margin:auto;'>",unsafe_allow_html=True)
   col0, col1 = st.columns([2,5],gap="small")
   with col0:
-    st.markdown('<div style="text-align: right;">10:00-10:15am</div>', unsafe_allow_html=True)
+    st.markdown('<div style="text-align: right;">10:00-10:10am</div>', unsafe_allow_html=True)
   with col1:
-    st.write("Awam Amkpa")
+    st.write("Executive Director of Writing: Marion Wrenn")
   col0, col1 = st.columns([2,5],gap="small")
   with col0:
-    st.markdown('<div style="text-align: right;">10:15-11:15am</div>', unsafe_allow_html=True)
+    st.markdown('<div style="text-align: right;">10:10-11:00am</div>', unsafe_allow_html=True)
   with col1:
     st.write("Keynote Speaker: Annette Vee")
   col0, col1 = st.columns([2,5],gap="small")
   with col0:
-    st.markdown('<div style="text-align: right;">11:15-11:45am</div>', unsafe_allow_html=True)
+    st.markdown('<div style="text-align: right;">11:00-11:45am</div>', unsafe_allow_html=True)
   with col1:
-    st.write("Local Speaker: Marion Wrenn")
+    st.write("Local Speaker: Michael Pazinas")
   col0, col1 = st.columns([2,5],gap="small")
   with col0:
     st.markdown('<div style="text-align: right;">11:45am-12:00pm</div>', unsafe_allow_html=True)
   with col1:
-    st.write("Provost's Welcome Address")
+    st.write("Provost's Welcome Address: Arlie Petters")
   st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
   # *****************************************************************************************************
   col0, col1 = st.columns([2,5],gap="small")
   with col0:
-    st.write("12:00 - 2:30pm")
+    st.write("12:00 - 2:00pm")
   with col1:
     st.write("**Lunch and Prayer Break**")
     st.write("Torch Club (D2)")
     st.write("*Prayer Rooms in C2 Ground Floor*")
+  with col0:
+    st.write("1:30 - 2:20pm")
+  with col1:
+    st.write("**Campus Tour (Optional)**")
+    st.write("Conducted by Louise Simpson and Samia Ahmed")
+    st.write("*Starting Point: Torch Club (D2)*")
   st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
   # *****************************************************************************************************
   col0, col1 = st.columns([2,5],gap="small")

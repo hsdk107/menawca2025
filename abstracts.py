@@ -23,7 +23,7 @@ with st.expander("Abstract"):
 st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
 
 with st.expander("**Centering Human Voices in a Co-Creative Approach to Writing with AI**",expanded=True):
- col0,col1,col2 = st.columns([1,1,2])
+ col0,col1,col2 = st.columns(3)
  with col0:
   with st.popover("Dima Yousef"):
    st.markdown('''

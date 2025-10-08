@@ -2,7 +2,7 @@ import streamlit as st
 
 st.header("Keynote Speakers")
 
-col0, col1 = st.columns([2,5],gap="small")
+col0, col1 = st.columns([2,5],gap="medium")
 with col0:
 	st.image("img/annettevee.png")
 with col1:
@@ -59,7 +59,7 @@ with st.expander("Reimagining the Writing Center in the Age of Generative AI: A 
 	empowers students to think, create, and write with confidence.''')
 st.divider()
 
-col0, col1 = st.columns([2,5],gap="small")
+col0, col1 = st.columns([2,5],gap="large")
 with col0:
 	st.image("img/michaelpazinas.png")
 with col1:

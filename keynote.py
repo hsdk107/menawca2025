@@ -2,6 +2,12 @@ import streamlit as st
 
 st.header("Keynote Speakers")
 
+col0, col1 = st.columns([2,5],gap="small")
+with col0:
+	st.image("img/annettevee.png")
+with col1:
+	st.write("**Annette Vee** ***(Keynote Speaker)*** is Associate Professor of English at University of Pittsburgh, where she recently served six years as the Director of Composition.")
+
 st.write("**Annette Vee** ***(Keynote Speaker)*** is Associate Professor of English at University of Pittsburgh, where she recently served six years as the Director of Composition.")
 st.markdown('''
 At Pitt, she’s facilitated research groups and teaching circles on AI,  an AI across the Disciplines program and advised the CIO on AI policy; 

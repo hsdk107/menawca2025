@@ -56,7 +56,7 @@ st.markdown('''
 A Senior Fellow of Advance HE and certified Quality Matters peer reviewer, he has developed programmes on learning integrity, AI-resilient assessment, 
 and faculty development. His current work examines how educators can design for *authentic human learning* in environments shaped by generative AI. 
 Michael’s approach combines academic rigour with design thinking, drawing on evidence-based learning strategies and techniques adapted from fields 
-such as UX design. Through LX.ai, a faculty development initiative shortlisted for a Times Higher Education award, he has explored methods like 
+such as UX design. Through **LX.ai**, a faculty development initiative shortlisted for a Times Higher Education award, he has explored methods like 
 persuasive and validation patterns as practical micro-experiments within the design cycle. These approaches give faculty ways to trial, refine, and 
 evaluate learning interventions in practice while keeping the learner’s experience central. Alongside this, he integrates insights on emotion, 
 creativity, and flow, recognising their importance in sustaining motivation and making learning meaningful. His initiatives, including 

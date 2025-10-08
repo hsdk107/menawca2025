@@ -206,7 +206,7 @@ with day2:
       st.write("*Centering Human Voices in a Co-Creative Approach to Writing with AI*")
       st.write("Dima Yousef & Amira El-Soussi")
     with col3:
-      st.write("*Students’ Perception on GenAI in College Writing*")
+      st.write("*Students' Perception on GenAI in College Writing*")
       st.write("Nattaporn Luangpipat")
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
     col0, col1, col2, col3 = st.columns([1,2,2,2],gap="small")
@@ -224,19 +224,19 @@ with day2:
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
     col0, col1, col2, col3 = st.columns([1,2,2,2],gap="small")
     with col0:
-      st.write("12:15-12:55pm")
+      st.write("12:00-12:40pm")
     with col1:
       st.write("*On Shame and Pedagogy in an AI-Suffused World*")
       st.write("Mitchell Atkinson III")
     with col2:
       st.write(" ")
     with col3:
-      st.write("*Students’ Perspectives on Hybrid AI-Human Peer Review*")
+      st.write("*Students' Perspectives on Hybrid AI-Human Peer Review*")
       st.write("Neslihan Bilikozen & Hoda Nada")
   # *****************************************************************************************************
   col0, col1 = st.columns([2,5],gap="small")
   with col0:
-    st.write("1:00 - 2:00pm")
+    st.write("12:45 - 2:00pm")
   with col1:
     st.write("**Lunch Break**")
     st.write("Library Lobby (C2) 3rd floor")
@@ -255,11 +255,11 @@ with day2:
     with col0:
       st.write("Room")
     with col1:
-      st.write("TBD")
+      st.write("Library #340 (Faculty Hub)")
     with col2:
-      st.write("TBD")
+      st.write("Library #339")
     with col3:
-      st.write("TBD")
+      st.write("Library #329")
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
     # *****************************************************************************************************
     col0, col1, col2, col3 = st.columns([1,2,2,2],gap="small")
@@ -279,55 +279,55 @@ with day2:
     with col0:
       st.write("2:45-3:25pm")
     with col1:
-      st.write("*Reconsidering the Process Approach to Developing Writing*")
-      st.write("Anna Kascheeva")
+      st.write("*Teaching STEM Students to Write with and Without AI*")
+      st.write("Christopher Hill & Sana Chakroun")
     with col2:
       st.write("*Coaching in Writing Centers: Hype or Game-Changer?*")
       st.write("Maimuna Aghliw")
     with col3:
-      st.write("*Teaching STEM Students to Write with and Without AI*")
-      st.write("Christopher Hill & Sana Chakroun")
+      st.write("*Reconsidering the Process Approach to Developing Writing*")
+      st.write("Anna Kashcheeva")
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
     col0, col1, col2, col3 = st.columns([1,2,2,2],gap="small")
     with col0:
       st.write("3:30-4:10pm")
     with col1:
-      st.write("*Engaging with GenAI in Scientific Writing: Opportunities and Caveats*")
-      st.write("Hind Saddiki")
-    with col2:
       st.write("*Chatbots, ESL Writing, Citation, Annotated Bibliography, WAC, Academic Writing*")
       st.write("Inas Y. Mahfouz")
+    with col2:
+      st.write(" ")
     with col3:
-      st.write("*Students’ Engagement with a Specialized AI Research Assistant Tool*")
+      st.write("*Students' Engagement with a Specialized AI Research Assistant Tool*")
       st.write("Besma Allagui")
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
     col0, col1, col2, col3 = st.columns([1,2,2,2],gap="small")
     with col0:
       st.write("4:15-4:55pm")
     with col1:
-      st.write("*Engagement Strategies in Human-Written and AI-Generated Academic Essays: A Corpus-Based Study*")
-      st.write("Sharif Alghazo")
-    with col2:
       st.write("*Reflecting on Approaches to First-Year Writing Using Copilot*")
       st.write("Shauna Loej & Sahar Mari")
+    with col2:
+      st.write("*Engagement Strategies in Human-Written and AI-Generated Academic Essays: A Corpus-Based Study*")
+      st.write("Sharif Alghazo")
     with col3:
-      st.write("(1) *AI in Action: Perspectives from Peer Tutors* (Pecha-Kucha)")
-      st.write("Malak Elmallah, Audre Knepp, & Gaya Menon")
-      st.write("(2) *Sociolinguistic Sexism and Gender-Unspecified Generative AI: Biased Linguistic Practices* (Pecha-Kucha)")
-      st.write("Mariami Akopian")
-      st.write("(3) *Voice and Style: A Personal Statement Writing Workshop Experiment* (Pecha-Kucha)")
-      st.write("Sheren Saad")
-      st.write("(4) *Co-Creating Graphic Novels with AI* (Show & Tell)")
+      st.write("*Co-Creating Graphic Novels with AI* (Show & Tell)")
       st.write("Bianca Arkeen & Fahad Rizwan")
+      st.write("*Voice and Style: A Personal Statement Writing Workshop Experiment* (Pecha-Kucha)")
+      st.write("Sheren Saad")
+      st.write("*AI in Action: Perspectives from Peer Tutors* (Pecha-Kucha)")
+      st.write("Malak Elmallah & Louise Simpson")
+      st.write("*Sociolinguistic Sexism and Gender-Unspecified Generative AI: Biased Linguistic Practices* (Pecha-Kucha)")
+      st.write("Mariami Akopian")
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
     
   # *****************************************************************************************************
   col0, col1 = st.columns([2,5],gap="small")
   with col0:
-    st.write("5:00 - 6:00pm")
+    st.write("5:00 - 5:30pm")
   with col1:
     st.write("**Closing Ceremony**")
-    st.write("Faculty Hub, Library, Level 3, Campus Center (C2)")
+    st.write("*Library Room #340 (Faculty Hub), Library, Level 3, Campus Center (C2)*")
+    st.write("MENAWCA Awards & Announcements")
   st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
 
 
@@ -340,15 +340,14 @@ with day3:
   # *****************************************************************************************************
   col0, col1 = st.columns([2,5],gap="small")
   with col0:
-    st.write("9:00 - 9:30am")
+    st.write("10:00 - 10:30am")
   with col1:
-    st.write("**Breakfast & Registration**")
-    st.write("Faculty Hub, Library, Level 3, Campus Center (C2)")
-    st.write("*Registration will continue past this time if needed at the Library Entrance (C2)*")
+    st.write("**Breakfast**")
+    st.write("Library Lobby, Level 3, Campus Center (C2)")
   st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
   col0, col1 = st.columns([2,5],gap="small")
   with col0:
-    st.write("9:30am - 12:00pm")
+    st.write("10:30am - 12:30pm")
   with col1:
     st.write("**Parallel Sessions:** ***Workshops***")
     st.write("Campus Center (C2) Level 3, Library, Breakout Rooms")
@@ -358,14 +357,14 @@ with day3:
     with col0:
       st.write("Room")
     with col1:
-      st.write("TBD") #st.error("TBD")
+      st.write("Library Room #340 (Faculty Hub)") #st.error("TBD")
     with col2:
-      st.write("TBD") #st.error("TBD")
+      st.write("Library #329") #st.error("TBD")
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
     # *****************************************************************************************************
     col0, col1, col2 = st.columns([1,2,2],gap="small")
     with col0:
-      st.write("9:30-10:25")
+      st.write("10:30-11:30")
     with col1:
       st.write("*Teaching AI-Enhanced Writing: A Workshop on Prompting, Research, and Revision Strategies for Student Writers*")
       st.write("Sana Chakroun, Sweta Bharadwaj, & Christopher Hill")
@@ -375,7 +374,7 @@ with day3:
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
     col0, col1, col2 = st.columns([1,2,2],gap="small")
     with col0:
-      st.write("10:30-11:25")
+      st.write("11:30-12:30")
     with col1:
       st.write("*Research Reimagined through AI*")
       st.write("Amani Magid & Grace Adeneye")
@@ -386,10 +385,10 @@ with day3:
   # *****************************************************************************************************
   col0, col1 = st.columns([2,5],gap="small")
   with col0:
-    st.write("11:30am - 12:00pm")
+    st.write("12:30 - 1:00pm")
   with col1:
     st.write("**Presidential Perspectives**")
     st.write("The MENAWCA Presidents: Sahar Mari, Kelly Wilson, Nicole Abiad, & Ryan McDonald")
-    st.write("Faculty Hub, Library, Level 3, Campus Center (C2)")
+    st.write("Library Room #340 (Faculty Hub), Level 3, Campus Center (C2)")
   st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
 

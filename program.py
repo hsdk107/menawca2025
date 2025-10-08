@@ -78,9 +78,9 @@ with day1:
     with col0:
       st.write("Room")
     with col1:
-      st.write("TBD") #st.error("TBD")
+      st.write("Library Room #329") #st.error("TBD")
     with col2:
-      st.write("TBD") #st.error("TBD")
+      st.write("Library Room #340 (Faculty Hub)") #st.error("TBD")
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
     # *****************************************************************************************************
     col0, col1, col2 = st.columns([1,2,2],gap="small")

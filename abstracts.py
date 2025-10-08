@@ -46,20 +46,18 @@ with st.expander("**Coaching in Writing Centers: Hype or Game-Changer?**",expand
  st.markdown('''
  Nowadays, it seems like everything is “coached”—athletes, executives and now even writing center specialists. But what does coaching actually mean in an academic setting? A team of writing specialists from Qatar University’s English Foundation Program recently completed an intensive coaching training program. In this session, we will explore some of the coaching strategies that may enhance writing center pedagogy. Participants will have the opportunity to try out practical coaching techniques that can be applied in tutoring sessions. Additionally, the presenter will share insights on whether coaching tool have successfully improved interactions with students and colleagues in her daily operations. The session will conclude with an open discussion and Q & A, inviting attendees to reflect on the role of coaching in writing center practices.''')
 
-with st.expander("**Title**",expanded=True):
+with st.expander("**Does Authenticity in Writing Matter?**",expanded=True):
  col0,col1,col2 = st.columns(3)
  with col0:
-  with st.popover("Name1"):
+  with st.popover("Tatiana Golechkova"):
    st.markdown('''
-   Bio 1''')
+   Tatiana Golechkova is an EFL teacher and teacher trainer. She is Assistant Professor at the Department of Humanities and Languages, New Economic School, Moscow, Russia. She holds a PhD in Cognitive Linguistics and full Cambridge DELTA. She has broad experience in teaching English for Academic Purposes, Business English, Soft Skills in English to a range of students and academics. Her areas of special interest are strategies for effective communication, genre features of English texts and developing learner autonomy. She has presented and run workshops at several national and international conferences, including NATE, BKC TT, IATEFL, BALEAP and MISIS ESP conference.''')
  with col1:
-  with st.popover("Name2"):
-   st.markdown('''
-   Bio 2''')
+  st.write(" ")
  with col2:
   st.write(" ")
  st.markdown('''
- Abstract of the presentation.''')
+ In this talk, we will discuss what constitutes an authentic writing style as opposed to formulaic and standardized. We will compare and contrast authentic student-produced and AI-generated texts in order to single out key language features that account for the differences. It is these linguistic differences that usually give away AI-generated writing by making it sound formulaic, “too polished”, and therefore lacking in voice and authenticity. We will compare these features with students’ views based on the findings of a survey on students’ perceptions of quality writing. The similarities and differences in features and perceptions can inform our classroom practices and policies, as well as become a starting point for a conversation with our students about the value of an authentic voice in writing.''')
 
 
 with st.expander("**Title**",expanded=True):

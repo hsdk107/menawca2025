@@ -71,6 +71,7 @@ with day1:
   with col1:
     st.write("**Parallel Sessions:** ***Policy, Voice and Agency***")
     st.write("Campus Center (C2) Level 3, Library, Breakout Rooms")
+    st.write("*Coffee available throughout the day in the Center For Writing (Library)*")
   with st.expander("Parallel Sessions",expanded=True):
     # *****************************************************************************************************
     col0, col1, col2 = st.columns([1,2,2],gap="small")

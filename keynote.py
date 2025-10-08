@@ -8,7 +8,7 @@ with col0:
 with col1:
 	st.write("**Annette Vee** ***(Keynote Speaker)*** is Associate Professor of English at University of Pittsburgh, where she recently served six years as the Director of Composition.")
 
-st.write("**Annette Vee** ***(Keynote Speaker)*** is Associate Professor of English at University of Pittsburgh, where she recently served six years as the Director of Composition.")
+#st.write("**Annette Vee** ***(Keynote Speaker)*** is Associate Professor of English at University of Pittsburgh, where she recently served six years as the Director of Composition.")
 st.markdown('''
 At Pitt, she’s facilitated research groups and teaching circles on AI,  an AI across the Disciplines program and advised the CIO on AI policy; 
 outside of Pitt, she gives workshops, keynotes, and advice related to AI to faculty, students, and higher ed administrators. 
@@ -33,7 +33,11 @@ with st.expander("Title: AI Awareness, Exploration, and Responsibility",expanded
 	Rather than viewing AI as a threat, we can reframe it as an opportunity to revisit our practices and deepen our commitment to empowering writers.''')
 st.divider()
 
-st.write("**Maria Eleftheriou** ***(Regional Speaker)*** is an Assistant Professor of English at the American University of Sharjah, where she directs the Writing Center and oversees its peer tutor training program.")
+col0, col1 = st.columns([2,5],gap="small")
+with col0:
+	st.image("img/mariaeleftheriou.png")
+with col1:
+	st.write("**Maria Eleftheriou** ***(Regional Speaker)*** is an Assistant Professor of English at the American University of Sharjah, where she directs the Writing Center and oversees its peer tutor training program.")
 st.markdown('''
 She  teaches undergraduate courses in academic writing and research and has also taught in the MATESOL program at the graduate level.
 Her scholarship explores writing center pedagogy, multilingual tutoring, online writing instruction, and the role of AI in academic writing. 
@@ -57,7 +61,12 @@ with st.expander("Title: Reimagining the Writing Center in the Age of Generative
 	empowers students to think, create, and write with confidence.''')
 st.divider()
 
-st.write("**Michael Pazinas** ***(Local Speaker)*** is Acting Director of the Center for Educational Innovation at Zayed University, where he leads initiatives at the intersection of pedagogy, faculty development, and AI.")
+col0, col1 = st.columns([2,5],gap="small")
+with col0:
+	st.image("img/michaelpazinas.png")
+with col1:
+	st.write("**Michael Pazinas** ***(Local Speaker)*** is Acting Director of the Center for Educational Innovation at Zayed University, where he leads initiatives at the intersection of pedagogy, faculty development, and AI.")
+
 st.markdown('''
 A Senior Fellow of Advance HE and certified Quality Matters peer reviewer, he has developed programmes on learning integrity, AI-resilient assessment, 
 and faculty development. His current work examines how educators can design for *authentic human learning* in environments shaped by generative AI. 

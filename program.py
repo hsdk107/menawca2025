@@ -147,7 +147,7 @@ with day1:
     st.write("6:30 - 8:30pm")
   with col1:
     st.write("**Conference Dinner at Taparelle, Manarat Al Saadiyat**")
-    st.write("*Buses to the restaurant will be available outside \n\nthe Campus Welcome Center departing at 6:00 pm*")
+    st.write("*Buses to the restaurant will be available outside the Campus Welcome Center departing at 6:00 pm*")
   st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
 
   #st.table(chart_data)

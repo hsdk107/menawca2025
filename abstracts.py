@@ -5,7 +5,7 @@ st.header("Speakers and Abstracts")
 with st.expander("Parallel Sessions",expanded=True):
  st.write("TBD")
 
-st.write("Centering Human Voices in a Co-Creative Approach to Writing with AI")
+st.write("**Centering Human Voices in a Co-Creative Approach to Writing with AI**")
 col0,col1,col2 = st.columns([1,1,2])
 with col0:
  with st.popover("Dima Yousef"):

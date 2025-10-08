@@ -51,12 +51,17 @@ with st.expander("Title: Reimagining the Writing Center in the Age of Generative
 	empowers students to think, create, and write with confidence.''')
 st.divider()
 
-st.write("**Marion Wrenn, PhD** ***(Local Speaker)*** is is a poet, essayist, and the Executive Director of Writing at NYUAD, where she helped found the Writing Program and the Writing Center.")
+st.write("**Michael Pazinas** ***(Local Speaker)*** is Acting Director of the Center for Educational Innovation at Zayed University, where he leads initiatives at the intersection of pedagogy, faculty development, and AI.")
 st.markdown('''
-Marion Wrenn, PhD, is a poet, essayist, and the Executive Director of Writing at NYUAD, where she helped found the Writing Program and the Writing Center. 
-She has taught writing at NYU NY, Princeton University, and Parsons School of Design in her 30-year career in the field of Writing Studies. 
-Her research moves across creative writing, journalism history, and the study of media and popular culture. She co-edits *The Women’s Review of Books*, newly launched at NYUAD, 
-as well as the literary magazine *Painted Bride Quarterly*, for which she co-hosts and co-produces the literary podcast *The Slush Pile*.''')
+A Senior Fellow of Advance HE and certified Quality Matters peer reviewer, he has developed programmes on learning integrity, AI-resilient assessment, 
+and faculty development. His current work examines how educators can design for *authentic human learning* in environments shaped by generative AI. 
+Michael’s approach combines academic rigour with design thinking, drawing on evidence-based learning strategies and techniques adapted from fields 
+such as UX design. Through LX.ai, a faculty development initiative shortlisted for a Times Higher Education award, he has explored methods like 
+persuasive and validation patterns as practical micro-experiments within the design cycle. These approaches give faculty ways to trial, refine, and 
+evaluate learning interventions in practice while keeping the learner’s experience central. Alongside this, he integrates insights on emotion, 
+creativity, and flow, recognising their importance in sustaining motivation and making learning meaningful. His initiatives, including 
+LIFE (Learning Integrity and Faculty Empowerment), position faculty as intentional designers of transformative experiences, where curiosity, 
+struggle, reflection, and dialogue remain protected as the foundations of genuine learning.''')
 with st.expander("Title: Naming What We Know",expanded=True):
 	st.markdown('''
 	Ten years ago the anthology *Naming What We Know* set out to define the core knowledge that infomed and threaded through writing studies and writing pedagogy. 

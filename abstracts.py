@@ -102,6 +102,110 @@ with st.expander("**Principles and Practices for Teaching Critical AI Literacy**
  In this presentation, a writing program director discusses the collaborative development of a statement of 'Principles of Teaching Critical AI Literacy' that has guided our critical engagement with AI technologies in undergraduate writing seminars and writing center tutorials. In particular the presenter share survey data about AI use among first-year students at our U.S.-based university and also detail practical activities and assignments to engage students in critically and ethically using AI to generate ideas, analyze audiences, and conduct research for writing. The presenter will also share examples of our programmatic effort to bring more student voices into the AI conversation in higher education by developing a collaborative class project across multiple sections in which students created original multimedia web content about AI use in writing, learning, and creative arts.''')
 
 
+with st.expander("**Reconsidering the Process Approach to Developing Writing**",expanded=True):
+ col0,col1,col2 = st.columns(3)
+ with col0:
+  with st.popover("Anna Kashcheeva"):
+   st.markdown('''
+   Anna Kashcheeva is a Senior Instructor at Humanities and Languages Department of the New Economic School. Anna delivers General English and Introduction to College Writing courses. She holds a pedagogical degree and MSc in Educational Management from University of Portsmouth, UK. She previously worked as a full-time teacher trainer and an Assistant Director of Studies at a private language school in Moscow. Being a CELTA and DELTA trainer, Anna also develops and delivers various training and methodological programmes for such educational establishments as Academic Writing Centre at Higher School of Economics, Cambridge English, Language Link, Thimar Teacher Training Centre etc.''')
+ with col1:
+  st.write(" ")
+ with col2:
+  st.write(" ")
+ st.markdown('''
+ Helping learners improve their academic essays using the process approach to developing writing skills is preferable as it promotes creativity and individuality in writing. What is more, many of our learners are keen to be flexible and less dependent on certain styles, clichés and recommended structures. However, as they are trained to rely on model texts and overloaded with home assignments, our learners tend to cut corners by simply copying and pasting AI generated texts. This session is aimed at clarifying some strategies to motivate our learners to shift from the product writing and equip them with useful content, resources and language for their academic essays. We will discuss some reasons, focus on potential pitfalls and look at student generated texts to work out how to help them change their habits and make significant progress.''')
+
+
+with st.expander("**Reflecting on Approaches to First-Year Writing Using Copilot**",expanded=True):
+ col0,col1,col2 = st.columns(3)
+ with col0:
+  with st.popover("Shauna Loej"):
+   st.markdown('''
+   Shauna Loej is a Writing Specialist and Adjunct Lecturer in First-Year Writing at Northwestern University in Qatar. She began her career in communications before transitioning to education almost a decade ago, finding tutoring and teaching writing a natural fit for her passion for writing. She was honored as the MENAWCA Professional Tutor of the Year in 2021 and has actively contributed to MENAWCA and IWCA conferences. Shauna holds a CELTA and an MA in Communication.''')
+ with col1:
+  with st.popover("Sahar Mari"):
+   st.markdown('''
+   Sahar Mari collaborates with faculty to enhance teaching methods and integrate new technologies into curricula. With over a decade of experience in higher education, she is a dedicated learning engineer at Northwestern University in Qatar committed to making education accessible. Sahar is passionate about teaching and learning, and as a lifelong learner, she continually seeks to incorporate new technologies into experiential learning activities. She holds an M.F.A. in Graphic Design and Visual Experience from the Savannah College of Art and Design.''')
+ with col2:
+  st.write(" ")
+ st.markdown('''
+ This session presents insights derived from the collaboration between a first-year writing instructor and a learning engineer in incorporating AI tools into writing instruction. It specifically addresses the distinct needs and challenges faced by first-year students at an international branch campus in the MENA region. The session will cover methodologies for partnering with faculty to enhance AI literacy and examine the impact of AI on first-year English courses. We will discuss the strategies employed and provide contextual evidence demonstrating how we fostered critical thinking and promoted the development of healthy writing habits. We invite participants to join us in reflecting, conversing, and gaining collective knowledge about the role of AI in first-year writing instruction.''')
+
+
+with st.expander("**(Re)Shaping the Writing Process with the 6-P Model: A Framework for Individualized AI-Integrated Writing Instruction**",expanded=True):
+ col0,col1,col2 = st.columns(3)
+ with col0:
+  with st.popover("Chase Brame"):
+   st.markdown('''
+   Chase Brame is an Instructor in the NYUAD Writing Program, where he specializes in academic writing and multilingual writer support. He has taught at institutes of higher education in North America, Europe, and the Middle East. He is currently pursuing an EdD in Curriculum and Instruction at the University of Virginia, where his research focuses on writing pedagogy in the age of AI.''')
+ with col1:
+  st.write(" ")
+ with col2:
+  st.write(" ")
+ st.markdown('''
+ Technological innovations have upended traditional models of writing pedagogy, compelling writing centers to adjust their praxis in response. This presentation proposes that writing centers adopt a consultation framework aligned with the 6-P model – plan, prompt, preview, produce, peer-review, and portfolio tracking – to integrate AI tools into individualized writing instruction. Drawing on Selber’s (2004) multiliteracies framework of functional, critical, and rhetorical literacies, this session demonstrates how each stage of the 6-P model offers the potential for targeted AI-literacy instruction. Additionally, the presentation highlights how an incremental, AI-conscious consultation approach can promote critical thinking, purposefulness, thoughtful design, and authentic authorship over mere promptsmanship – foundational goals in writing instruction. The session concludes by showcasing how the 6-P model can be practically applied in writing center consultations to meet diverse student needs, support writers at any stage, and offer a flexible approach to ethically integrating generative AI tools in individualized writing instruction.''')
+
+
+with st.expander("**Strategies to Enhance Student Engagement with the Writing Center**",expanded=True):
+ col0,col1,col2 = st.columns(3)
+ with col0:
+  with st.popover("Muna Al-Badaai"):
+   st.markdown('''
+   Muna Al-Badaai is an assistant professor and the coordinator of the Student Academic Support Unit at Sohar University. She is interested particularly in the Writing Centers and the academic support centers in general. Dr. Al-Badaai participated in the Student Writing: Innovations and Transformations Symposium at UAEU in 2018 and attended MENAWCA 2021 and 2023 Conferences.''')
+ with col1:
+  with st.popover("Nawal Al Amri"):
+   st.markdown('''
+   Nawal Al Amri is an administrative officer at Student Academic Support Unit in Sohar University. She graduated from the same University in 2024. Ms. Al-Amri has been interested in peer tutoring since she was a BA student.''')
+ with col2:
+  st.write(" ")
+ st.markdown('''
+ Student Academic Support Unit is the designated entity at Sohar University under which the Tutorial Center and the Writing Center operate. Student engagement with the Tutorial Center’s services has been significantly higher compared with those of the Writing Center. To investigate the reasons and increase participation, the researchers conducted a questionnaire in May 2025. They found out that the main reason was that majority of participants were unaware about the Writing Center and its services. Accordingly, the researchers set an action plan including; a) recording a promotional video and b) modifying the currently used strategies to be more interactive, like hand-on workshops, writing games and competitions, and AI tools integration. The researchers have started a pilot study implemented with General Foundation Program students. It will continue for a month. This presentation discusses the impact of the newly implemented strategies on student participation.''')
+
+
+with st.expander("**Students' Engagement with a Specialized AI Research Assistant Tool**",expanded=True):
+ col0,col1,col2 = st.columns(3)
+ with col0:
+  with st.popover("Besma Allagui"):
+   st.markdown('''
+   Dr. Basma Allagui is an Assistant Professor at Rabdan Academy in Abu Dhabi. She holds a PhD in Applied Linguistics with a minor in teaching academic writing and research. She has developed and taught a considerable number of face-to-face and distance learning courses and modules. She is a member of the Middle East-North Africa Writing Centers Alliance (MENAWCA). She acted as a research coordinator at Rabdan Academy in 2020-2021. She served as an International referee at the First International Student Competition in Smart Education and e-Learning (SEEL 2019).''')
+ with col1:
+  st.write(" ")
+ with col2:
+  st.write(" ")
+ st.markdown('''
+ Although many are concerned about students using general-purpose Artificial Intelligence (AI) tools like ChatGPT to cheat on exams and assignments, specialized research assistant tools like Elicit can be powerful tools to improve efficiency, perform repetitive tasks, and assist with research. This study examines undergraduate students’ prior experiences of AI use in academic research and how they used Elicit to complete a literature review assignment. Before interacting with the tool, a survey was administered to 50 participants to examine familiarity with AI tools for academic research writing, frequency of using AI tools in academic research writing, comfort in integrating AI-generated content into academic research writing, understanding of the capabilities and limitations of AI tools in academic research writing, and awareness of the ethical considerations surrounding the use of AI tools in academic research writing. After interacting with the research assistant, a stimulated recall protocol and an interview with 8 participants documented students’ engagement at the cognitive, behavioural, and affective levels. Survey responses suggested a diverse range of prior experiences regarding the use of AI in academic research writing. Qualitative data from the stimulated recall protocols and interviews demonstrated that interacting with the AI research assistant can be useful for completing the literature review assignment despite moderate and limited engagement.''')
+
+
+with st.expander("**Students' Perception on GenAI in College Writing**",expanded=True):
+ col0,col1,col2 = st.columns(3)
+ with col0:
+  with st.popover("Nattaporn Luangpipat"):
+   st.markdown('''
+   Nattaporn Luangpipat is an assistant professor in residence in the Liberal Arts Program. She received her PhD in English (Composition and Rhetoric) from the University of Wisconsin-Madison. Her research interests encompass intergenerational literacies, composition pedagogy, writing and well-being, multimodal writing, and second/foreign language acquisition. Her current work investigates the impact of government language policies on Chinese literacy across three generations of Thai Chinese families in Thailand, focusing particularly on how they have navigated linguistic suppression and how these experiences have shaped their language beliefs and practices. Prior to joining Northwestern University in Qatar, Nattaporn was a journalist and English instructor in Thailand, and served as a writing instructor in the English Department and the Writing Center at the University of Wisconsin-Madison.''')
+ with col1:
+  st.write(" ")
+ with col2:
+  st.write(" ")
+ st.markdown('''
+ This presentation highlights student reflections on their use of Generative AI (GenAI) in writing. Students respond to a journal prompt about when they started using AI, how they use it, why they use it, and their thoughts on its pros and cons. The reflections reveal students' perceptions and engagement in co-creation with AI, challenging the boundaries of this co-creation and emphasizing the need for critical AI literacy among college students. The students’ journals demonstrate thoughts and practices influenced by language ideology, the preference for standardized academic language, and educational motivations that prioritize grades over learning. These reflections provide a nuanced understanding of students' experiences and perspectives on GenAI, helping writing instructors better address students' needs and concerns, and potentially fostering more effective and relevant conversations about AI in the classroom.''')
+
+
+with st.expander("**Students' Perspectives on Hybrid AI-Human Peer Review**",expanded=True):
+ col0,col1,col2 = st.columns(3)
+ with col0:
+  with st.popover("Neslihan Bilikozen"):
+   st.markdown('''
+   Neslihan Bilikozen is an Assistant Professor in the Department of English at the American University of Sharjah. She holds a Doctorate in Education from the University of Exeter and an MA in English Language Teaching from Bogazici University and Georgia State University. At AUS, she teaches undergraduate and graduate courses, supervises MA theses, and mentors student-teachers in their research and professional development. Her research focuses on critical English for Academic Purposes (EAP), with particular attention to the interrelations of academic literacy and identity, as well as critical AI literacy in English-medium contexts.''')
+ with col1:
+  with st.popover("Hoda Nada"):
+   st.markdown('''
+   Hoda Nada is a Research and Teaching Assistant at the American University of Sharjah, where she supports instruction in English language teaching and conducts research on the integration of artificial intelligence in higher education. With a background in English literature, translation, and TESOL, and a CELTA certification from Cambridge English, she looks into combining rigorous with practical teaching experience to explore how technology can enhance language learning and student engagement.''')
+ with col2:
+  st.write(" ")
+ st.markdown('''
+ This action research study, conducted in three sections of an academic writing course at an American university in the UAE, evaluated a hybrid peer-review model combining traditional student feedback with AI-generated feedback via ChatGPT. Students first conducted rubric-based peer reviews on a causal analysis essay, followed by a lab session where they prompted ChatGPT to provide feedback using the same rubric. A survey and reflection questions compared the utility of human and AI feedback. Results showed a preference for human feedback’s nuanced, context-specific insights, though students valued AI’s speed and grammatical precision, especially in combination with peer input. These findings suggest that a hybrid peer-review model optimizes feedback quality and supports revision. The presentation explores pedagogical implications, emphasizing how AI can complement human feedback in writing instruction, and offers strategies for implementing hybrid peer review in diverse classrooms.''')
+
+
 with st.expander("**Title**",expanded=True):
  col0,col1,col2 = st.columns(3)
  with col0:
@@ -117,7 +221,6 @@ with st.expander("**Title**",expanded=True):
  st.markdown('''
  Abstract of the presentation.''')
 
-
 with st.expander("**Title**",expanded=True):
  col0,col1,col2 = st.columns(3)
  with col0:
@@ -133,7 +236,6 @@ with st.expander("**Title**",expanded=True):
  st.markdown('''
  Abstract of the presentation.''')
 
-
 with st.expander("**Title**",expanded=True):
  col0,col1,col2 = st.columns(3)
  with col0:
@@ -148,71 +250,6 @@ with st.expander("**Title**",expanded=True):
   st.write(" ")
  st.markdown('''
  Abstract of the presentation.''')
-
-
-with st.expander("**Title**",expanded=True):
- col0,col1,col2 = st.columns(3)
- with col0:
-  with st.popover("Name1"):
-   st.markdown('''
-   Bio 1''')
- with col1:
-  with st.popover("Name2"):
-   st.markdown('''
-   Bio 2''')
- with col2:
-  st.write(" ")
- st.markdown('''
- Abstract of the presentation.''')
-
-
-with st.expander("**Title**",expanded=True):
- col0,col1,col2 = st.columns(3)
- with col0:
-  with st.popover("Name1"):
-   st.markdown('''
-   Bio 1''')
- with col1:
-  with st.popover("Name2"):
-   st.markdown('''
-   Bio 2''')
- with col2:
-  st.write(" ")
- st.markdown('''
- Abstract of the presentation.''')
-
-
-with st.expander("**Title**",expanded=True):
- col0,col1,col2 = st.columns(3)
- with col0:
-  with st.popover("Name1"):
-   st.markdown('''
-   Bio 1''')
- with col1:
-  with st.popover("Name2"):
-   st.markdown('''
-   Bio 2''')
- with col2:
-  st.write(" ")
- st.markdown('''
- Abstract of the presentation.''')
-
-
-with st.expander("**Title**",expanded=True):
- col0,col1,col2 = st.columns(3)
- with col0:
-  with st.popover("Name1"):
-   st.markdown('''
-   Bio 1''')
- with col1:
-  with st.popover("Name2"):
-   st.markdown('''
-   Bio 2''')
- with col2:
-  st.write(" ")
- st.markdown('''
- Abstract of the presentation.''')
-
 
 with st.expander("**Title**",expanded=True):
  col0,col1,col2 = st.columns(3)

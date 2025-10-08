@@ -62,6 +62,15 @@ evaluate learning interventions in practice while keeping the learner’s experi
 creativity, and flow, recognising their importance in sustaining motivation and making learning meaningful. His initiatives, including 
 LIFE (Learning Integrity and Faculty Empowerment), position faculty as intentional designers of transformative experiences, where curiosity, 
 struggle, reflection, and dialogue remain protected as the foundations of genuine learning.''')
-with st.expander("Title: TBD",expanded=True):
+with st.expander("Title: Designing for Productive Struggle in Writing",expanded=True):
 	st.markdown('''
-	TBD''')
+	This session asks a set of urgent questions: How can we design for authentic human learning? What does authenticity in learning look like today? 
+	What makes a learning experience feel meaningful, embodied, and worth engaging in, and how can we design for this in the age of AI?''')
+	st.markdown('''
+	This talk invites participants to step back and reconsider the foundations of transformative learning. Attention will be placed on curiosity, 
+	struggle, reflection, and dialogue as practices that give depth to the learning process. The session will explore how educators can protect 
+	space for uncertainty, discovery, and even discomfort—conditions that are often avoided but which remain essential for growth. They will explore 
+	how human learning manifests in its public life through composition, argumentation and rhetoric.''')
+	st.markdown('''
+	By foregrounding these elements, the discussion highlights how intentional design choices can help preserve authenticity in writing. 
+	The aim is to equip faculty with perspectives and practices that make learning not only effective but genuinely worth engaging in.''')

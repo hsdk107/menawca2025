@@ -56,6 +56,7 @@ with day1:
     st.write("**Lunch and Prayer Break**")
     st.write("Torch Club (D2)")
     st.write("*Prayer Rooms in C2 Ground Floor*")
+  col0, col1 = st.columns([2,5],gap="small")
   with col0:
     st.write("1:30 - 2:20pm")
   with col1:

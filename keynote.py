@@ -35,8 +35,9 @@ with col0:
 	st.image("img/mariaeleftheriou.png")
 with col1:
 	st.write("**Maria Eleftheriou** ***(Regional Speaker)*** is an Assistant Professor of English at the American University of Sharjah, where she directs the Writing Center and oversees its peer tutor training program.")
+	st.write("She  teaches undergraduate courses in academic writing and research and has also taught in the MATESOL program at the graduate level.")
+	
 st.markdown('''
-She  teaches undergraduate courses in academic writing and research and has also taught in the MATESOL program at the graduate level.
 Her scholarship explores writing center pedagogy, multilingual tutoring, online writing instruction, and the role of AI in academic writing. 
 Her publications include work in TESOL International Journal, Contemporary Educational Technology, WAC Clearinghouse, and Palgrave Macmillan, 
 with forthcoming articles in The Educational Forum and the Online Learning Journal. She remains active in MENAWCA and global writing center networks.''')
@@ -63,10 +64,8 @@ with col0:
 	st.image("img/michaelpazinas.png")
 with col1:
 	st.write("**Michael Pazinas** ***(Local Speaker)*** is Acting Director of the Center for Educational Innovation at Zayed University, where he leads initiatives at the intersection of pedagogy, faculty development, and AI.")
-
-st.markdown('''
-A Senior Fellow of Advance HE and certified Quality Matters peer reviewer, he has developed programmes on learning integrity, AI-resilient assessment, 
-and faculty development. His current work examines how educators can design for *authentic human learning* in environments shaped by generative AI. 
+	st.write("A Senior Fellow of Advance HE and certified Quality Matters peer reviewer, he has developed programmes on learning integrity, AI-resilient assessment, and faculty development. His current work examines how educators can design for *authentic human learning* in environments shaped by generative AI.")
+st.markdown(''' 
 Michael’s approach combines academic rigour with design thinking, drawing on evidence-based learning strategies and techniques adapted from fields 
 such as UX design. Through **LX.ai**, a faculty development initiative shortlisted for a Times Higher Education award, he has explored methods like 
 persuasive and validation patterns as practical micro-experiments within the design cycle. These approaches give faculty ways to trial, refine, and 

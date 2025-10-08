@@ -62,8 +62,6 @@ evaluate learning interventions in practice while keeping the learner’s experi
 creativity, and flow, recognising their importance in sustaining motivation and making learning meaningful. His initiatives, including 
 LIFE (Learning Integrity and Faculty Empowerment), position faculty as intentional designers of transformative experiences, where curiosity, 
 struggle, reflection, and dialogue remain protected as the foundations of genuine learning.''')
-with st.expander("Title: Naming What We Know",expanded=True):
+with st.expander("Title: TBD",expanded=True):
 	st.markdown('''
-	Ten years ago the anthology *Naming What We Know* set out to define the core knowledge that infomed and threaded through writing studies and writing pedagogy. 
-	How might the project of identifying knowledge in the discipline -- and of the discipline-- help us re-orient writing studies toward the challenges 
-	of ambient ai? This talk will address the need to "name what we know" about good writing across the disciplines in an era defined by technological disruptions.''')
+	TBD''')

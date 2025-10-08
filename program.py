@@ -121,32 +121,33 @@ with day1:
       st.write("*Principles and Practices for Teaching Critical AI Literacy*")
       st.write("J. Palmeri")
     with col2:
-      st.write("*Text-to-Speech or Speech-to-Text? Preserving Voice and Agency in AI Co-Creation*")
-      st.write("Sweta Kumari & Aieshah Arif")
-    st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
-    col0, col1, col2 = st.columns([1,2,2],gap="small")
-    with col0:
-      st.write("4:45-5:25pm")
-      #st.markdown('<div style="text-align: right;">4:45-5:25pm</div>', unsafe_allow_html=True)
-    with col1:
-      st.write(" ")
-    with col2:
       st.write("*Writing with AI: Saudi Voices, Shared Dilemmas*")
       st.write("Georgios Kormpas, Abdulrahman AlHassun, & Joud Hakeem")
+    st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
     
   # *****************************************************************************************************
   col0, col1 = st.columns([2,5],gap="small")
   with col0:
-    st.write("5:30 - 6:30pm")
+    st.write("4:45 - 5:00pm")
   with col1:
-    st.write("**Rest**")
+    st.write("**Coffee Break**")
   st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
+  # *****************************************************************************************************
+  col0, col1 = st.columns([2,5],gap="small")
+  with col0:
+    st.write("5:00 - 5:45pm")
+  with col1:
+    st.write("**Regional Speaker: Maria Eleftheriou**")
+    st.write("Library Room #340 (Faculty Hub)")
+  st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
+  
   # *****************************************************************************************************
   col0, col1 = st.columns([2,5],gap="small")
   with col0:
     st.write("6:30 - 8:30pm")
   with col1:
-    st.write("**Conference Dinner**")
+    st.write("**Conference Dinner at Taparelle, Manarat Al Saadiyat**")
+    st.write("*Buses to the restaurant will be available outside of Welcome Center departing at 6:00 pm*")
   st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
 
   #st.table(chart_data)

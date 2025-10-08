@@ -307,8 +307,7 @@ with day2:
       st.write("*Reflecting on Approaches to First-Year Writing Using Copilot*")
       st.write("Shauna Loej & Sahar Mari")
     with col2:
-      st.write("*Engagement Strategies in Human-Written and AI-Generated Academic Essays: A Corpus-Based Study*")
-      st.write("Sharif Alghazo")
+      st.write(" ")
     with col3:
       st.write("*Co-Creating Graphic Novels with AI* (Show & Tell)")
       st.write("Bianca Arkeen & Fahad Rizwan")
@@ -318,9 +317,6 @@ with day2:
       st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
       st.write("*AI in Action: Perspectives from Peer Tutors* (Pecha-Kucha)")
       st.write("Malak Elmallah & Louise Simpson")
-      st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
-      st.write("*Sociolinguistic Sexism and Gender-Unspecified Generative AI: Biased Linguistic Practices* (Pecha-Kucha)")
-      st.write("Mariami Akopian")
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
     
   # *****************************************************************************************************

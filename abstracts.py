@@ -33,6 +33,19 @@ with st.expander("**Chatbots, ESL Writing, Citation, Annotated Bibliography, WAC
  This case study explores how AI can enhance the teaching process. Students enrolled in a second-level college writing course are required to utilize two different chatbots to generate content for various writing tasks. Using rubrics provided by their instructor, students audit the AI-generated content, decide how far it fulfills the requirements of the tasks to determine whether to proceed with a submission, develop, or edit certain sections.
  Students reflect on the process and what they gained and their reflections are analyzed using Geisler and Swarts (2019) frame for qualitative data analysis.''')
  
+with st.expander("**Coaching in Writing Centers: Hype or Game-Changer?**",expanded=True):
+ col0,col1,col2 = st.columns(3)
+ with col0:
+  with st.popover("Maimuna Aghliw"):
+   st.markdown('''
+   Maimuna Aghliw is a Libyan Canadian based in Qatar. She holds a Master of Arts in Applied Linguistics and Discourse Studies from Carleton University in Ottawa, Canada, and has over 10 years of English teaching experience in Libya, Canada, and Qatar. She currently works as a Teaching Assistant at Qatar University’s Success Zone, tutoring students in the Foundation Program’s Department of English. In addition to publishing articles with Al Jazeera, her academic interests include sociolinguistics, learner motivation, and critical thinking.''')
+ with col1:
+  st.write(" ")
+ with col2:
+  st.write(" ")
+ st.markdown('''
+ Nowadays, it seems like everything is “coached”—athletes, executives and now even writing center specialists. But what does coaching actually mean in an academic setting? A team of writing specialists from Qatar University’s English Foundation Program recently completed an intensive coaching training program. In this session, we will explore some of the coaching strategies that may enhance writing center pedagogy. Participants will have the opportunity to try out practical coaching techniques that can be applied in tutoring sessions. Additionally, the presenter will share insights on whether coaching tool have successfully improved interactions with students and colleagues in her daily operations. The session will conclude with an open discussion and Q & A, inviting attendees to reflect on the role of coaching in writing center practices.''')
+
 with st.expander("**Title**",expanded=True):
  col0,col1,col2 = st.columns(3)
  with col0:
@@ -47,3 +60,180 @@ with st.expander("**Title**",expanded=True):
   st.write(" ")
  st.markdown('''
  Abstract of the presentation.''')
+
+
+with st.expander("**Title**",expanded=True):
+ col0,col1,col2 = st.columns(3)
+ with col0:
+  with st.popover("Name1"):
+   st.markdown('''
+   Bio 1''')
+ with col1:
+  with st.popover("Name2"):
+   st.markdown('''
+   Bio 2''')
+ with col2:
+  st.write(" ")
+ st.markdown('''
+ Abstract of the presentation.''')
+
+
+with st.expander("**Title**",expanded=True):
+ col0,col1,col2 = st.columns(3)
+ with col0:
+  with st.popover("Name1"):
+   st.markdown('''
+   Bio 1''')
+ with col1:
+  with st.popover("Name2"):
+   st.markdown('''
+   Bio 2''')
+ with col2:
+  st.write(" ")
+ st.markdown('''
+ Abstract of the presentation.''')
+
+
+with st.expander("**Title**",expanded=True):
+ col0,col1,col2 = st.columns(3)
+ with col0:
+  with st.popover("Name1"):
+   st.markdown('''
+   Bio 1''')
+ with col1:
+  with st.popover("Name2"):
+   st.markdown('''
+   Bio 2''')
+ with col2:
+  st.write(" ")
+ st.markdown('''
+ Abstract of the presentation.''')
+
+
+with st.expander("**Title**",expanded=True):
+ col0,col1,col2 = st.columns(3)
+ with col0:
+  with st.popover("Name1"):
+   st.markdown('''
+   Bio 1''')
+ with col1:
+  with st.popover("Name2"):
+   st.markdown('''
+   Bio 2''')
+ with col2:
+  st.write(" ")
+ st.markdown('''
+ Abstract of the presentation.''')
+
+
+with st.expander("**Title**",expanded=True):
+ col0,col1,col2 = st.columns(3)
+ with col0:
+  with st.popover("Name1"):
+   st.markdown('''
+   Bio 1''')
+ with col1:
+  with st.popover("Name2"):
+   st.markdown('''
+   Bio 2''')
+ with col2:
+  st.write(" ")
+ st.markdown('''
+ Abstract of the presentation.''')
+
+
+with st.expander("**Title**",expanded=True):
+ col0,col1,col2 = st.columns(3)
+ with col0:
+  with st.popover("Name1"):
+   st.markdown('''
+   Bio 1''')
+ with col1:
+  with st.popover("Name2"):
+   st.markdown('''
+   Bio 2''')
+ with col2:
+  st.write(" ")
+ st.markdown('''
+ Abstract of the presentation.''')
+
+
+with st.expander("**Title**",expanded=True):
+ col0,col1,col2 = st.columns(3)
+ with col0:
+  with st.popover("Name1"):
+   st.markdown('''
+   Bio 1''')
+ with col1:
+  with st.popover("Name2"):
+   st.markdown('''
+   Bio 2''')
+ with col2:
+  st.write(" ")
+ st.markdown('''
+ Abstract of the presentation.''')
+
+
+with st.expander("**Title**",expanded=True):
+ col0,col1,col2 = st.columns(3)
+ with col0:
+  with st.popover("Name1"):
+   st.markdown('''
+   Bio 1''')
+ with col1:
+  with st.popover("Name2"):
+   st.markdown('''
+   Bio 2''')
+ with col2:
+  st.write(" ")
+ st.markdown('''
+ Abstract of the presentation.''')
+
+
+with st.expander("**Title**",expanded=True):
+ col0,col1,col2 = st.columns(3)
+ with col0:
+  with st.popover("Name1"):
+   st.markdown('''
+   Bio 1''')
+ with col1:
+  with st.popover("Name2"):
+   st.markdown('''
+   Bio 2''')
+ with col2:
+  st.write(" ")
+ st.markdown('''
+ Abstract of the presentation.''')
+
+
+with st.expander("**Title**",expanded=True):
+ col0,col1,col2 = st.columns(3)
+ with col0:
+  with st.popover("Name1"):
+   st.markdown('''
+   Bio 1''')
+ with col1:
+  with st.popover("Name2"):
+   st.markdown('''
+   Bio 2''')
+ with col2:
+  st.write(" ")
+ st.markdown('''
+ Abstract of the presentation.''')
+
+
+with st.expander("**Title**",expanded=True):
+ col0,col1,col2 = st.columns(3)
+ with col0:
+  with st.popover("Name1"):
+   st.markdown('''
+   Bio 1''')
+ with col1:
+  with st.popover("Name2"):
+   st.markdown('''
+   Bio 2''')
+ with col2:
+  st.write(" ")
+ st.markdown('''
+ Abstract of the presentation.''')
+

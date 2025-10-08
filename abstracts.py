@@ -60,36 +60,32 @@ with st.expander("**Does Authenticity in Writing Matter?**",expanded=True):
  In this talk, we will discuss what constitutes an authentic writing style as opposed to formulaic and standardized. We will compare and contrast authentic student-produced and AI-generated texts in order to single out key language features that account for the differences. It is these linguistic differences that usually give away AI-generated writing by making it sound formulaic, “too polished”, and therefore lacking in voice and authenticity. We will compare these features with students’ views based on the findings of a survey on students’ perceptions of quality writing. The similarities and differences in features and perceptions can inform our classroom practices and policies, as well as become a starting point for a conversation with our students about the value of an authentic voice in writing.''')
 
 
-with st.expander("**Title**",expanded=True):
+with st.expander("**Helping Students Choose Tools at AI's Jagged Edge**",expanded=True):
  col0,col1,col2 = st.columns(3)
  with col0:
-  with st.popover("Name1"):
+  with st.popover("Kate Koppy"):
    st.markdown('''
-   Bio 1''')
+   Kate Koppy is the Director of the Writing and Communications Center and an Assistant Professor of English at the New Economic School in Moscow. Her research focuses on the intersection of narrative and community. Specifically, she studies the ways in which the stories we tell foster and maintain individual and community identities. Her current research explores student agency and its interaction with generative AI and plagiarism in "Exploring Generative AI in the Writing Classroom and the Writing Center” (Journal für Schreiberwissenschaft, Vol. 26) and an in-progress article titled "Orientation and Authority in the First-Year Writing Classroom." She holds a Ph.D. in Comparative Literature from Purdue University. She has also written extensively about fairy tales.''')
  with col1:
-  with st.popover("Name2"):
-   st.markdown('''
-   Bio 2''')
+  st.write(" ")
  with col2:
   st.write(" ")
  st.markdown('''
- Abstract of the presentation.''')
+ Student writers, especially those working in foreign languages, tend to cede authority to external tools—websites, AI chatbots, library books, paper mills--because of the disorientation they experience in higher education. Using Stegmaier’s (2019) theory of orientation and Bartholomae's (1986) idea of students “inventing the university”, this paper first theorizes the adjustments students need to make as they move from novice to proficient writers, a process which happens in the communities shaped by their general education classes, in their fields of study, and in the broader scholarly conversation. During this transition, professors and tutors can foster student agency by bringing generative AI and other digital tools into the classroom. This presentation will conclude with some models for using cooperative learning to explore AI's jagged frontier in structured classroom activities followed by metacognitive reflection.''')
 
 
-with st.expander("**Title**",expanded=True):
+with st.expander("**On Shame and Pedagogy in an AI-Suffused World**",expanded=True):
  col0,col1,col2 = st.columns(3)
  with col0:
-  with st.popover("Name1"):
+  with st.popover("Mitchell Atkinson III"):
    st.markdown('''
-   Bio 1''')
+   Mitchell Atkinson teaches the construction of academic and philosophical texts at the undergraduate and graduate levels, helping young researchers read across discursive divisions. He is an instructor and organizer for the genetic phenomenology network and works periodically with the Husserl Archive. He also has several years of experience tutoring language learners, especially young people writing in their second language. In his work, Alterity and the Flint Water Crisis, Atkinson returned to his home city to understand the lived experience of the residents of Flint and the ways in which the crisis has informed their expectations for the future. This required a new analysis of the phenomenology of social invisibility as partially constituting the contemporary exercise of power. Atkinson is also a writer of fiction and a moderately skilled manipulator of the electric fretted bass guitar.''')
  with col1:
-  with st.popover("Name2"):
-   st.markdown('''
-   Bio 2''')
+  st.write(" ")
  with col2:
   st.write(" ")
  st.markdown('''
- Abstract of the presentation.''')
+ The following paper attempts to involve three until now disparate lines in my research. The first is the phenomenology of emotional experience. The second is internalized forms of marginalization (self-othering). The third is writing pedagogy. Taking examples from my own work as a teacher of writing, I attempt to analyze the tendency among some students to “over-use” digital tools of all kinds to “polish” the life, and often the meaning content, out of their writing. A phenomenology of shame can alert us to one of the most pressing dangers faced by educators—especially in the humanities—today. Shame, as Husserlian phenomenology can show us, is a self-directed axiological emotion which takes as its object not the act but the person. If the aim of pedagogical work is to enrich the person, to give the person the intellectual, social, and cultural tools concomitant with a full and elevated adult life, then combatting and preempting certain forms of shame experience should be central to the teacher’s work. The flight into digitally-mediated experience, into chatbots and ersatz online worlds, can be partially motivated by a constituted self-valuation which prevents the subject (the student) from expecting certain forms of achievement. This recoiling from expectations relative to growth and personal development is anti-pedagogical. The acts which contribute to it form an antipedagogy. The ways in which AI-mediated experiences contribute to such recoiling should be urgently studied. I offer the structure of play experience as a form of mediation which may encourage self-transvaluation for some students in some cases. ''')
 
 
 with st.expander("**Title**",expanded=True):

@@ -88,20 +88,18 @@ with st.expander("**On Shame and Pedagogy in an AI-Suffused World**",expanded=Tr
  The following paper attempts to involve three until now disparate lines in my research. The first is the phenomenology of emotional experience. The second is internalized forms of marginalization (self-othering). The third is writing pedagogy. Taking examples from my own work as a teacher of writing, I attempt to analyze the tendency among some students to “over-use” digital tools of all kinds to “polish” the life, and often the meaning content, out of their writing. A phenomenology of shame can alert us to one of the most pressing dangers faced by educators—especially in the humanities—today. Shame, as Husserlian phenomenology can show us, is a self-directed axiological emotion which takes as its object not the act but the person. If the aim of pedagogical work is to enrich the person, to give the person the intellectual, social, and cultural tools concomitant with a full and elevated adult life, then combatting and preempting certain forms of shame experience should be central to the teacher’s work. The flight into digitally-mediated experience, into chatbots and ersatz online worlds, can be partially motivated by a constituted self-valuation which prevents the subject (the student) from expecting certain forms of achievement. This recoiling from expectations relative to growth and personal development is anti-pedagogical. The acts which contribute to it form an antipedagogy. The ways in which AI-mediated experiences contribute to such recoiling should be urgently studied. I offer the structure of play experience as a form of mediation which may encourage self-transvaluation for some students in some cases. ''')
 
 
-with st.expander("**Title**",expanded=True):
+with st.expander("**Principles and Practices for Teaching Critical AI Literacy**",expanded=True):
  col0,col1,col2 = st.columns(3)
  with col0:
-  with st.popover("Name1"):
+  with st.popover("J Palmeri"):
    st.markdown('''
-   Bio 1''')
+   J Palmeri is Professor of English and Director of the Writing Program at Georgetown University in Washington, DC. Palmeri has published two books about the technologically-mediated history of writing and literacy instruction: Remixing Composition: A History of Multimodal Writing Pedagogy (Southern Illinois UP, 2012) and 100 Years of New Media Pedagogy (University of Michigan Press, 2021). As a scholar, Palmeri focuses on the history and theory of writing pedagogy, multimodal rhetorics, and digital humanities. At Georgetown, Palmeri coordinates first-year writing seminars and also supports faculty across the university in integrating writing instruction into their majors and graduate programs.''')
  with col1:
-  with st.popover("Name2"):
-   st.markdown('''
-   Bio 2''')
+  st.write(" ")
  with col2:
   st.write(" ")
  st.markdown('''
- Abstract of the presentation.''')
+ In this presentation, a writing program director discusses the collaborative development of a statement of 'Principles of Teaching Critical AI Literacy' that has guided our critical engagement with AI technologies in undergraduate writing seminars and writing center tutorials. In particular the presenter share survey data about AI use among first-year students at our U.S.-based university and also detail practical activities and assignments to engage students in critically and ethically using AI to generate ideas, analyze audiences, and conduct research for writing. The presenter will also share examples of our programmatic effort to bring more student voices into the AI conversation in higher education by developing a collaborative class project across multiple sections in which students created original multimedia web content about AI use in writing, learning, and creative arts.''')
 
 
 with st.expander("**Title**",expanded=True):

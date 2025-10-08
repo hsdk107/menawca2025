@@ -20,7 +20,7 @@ Substacks [AI & How We Teach Writing](https://aiandhowweteach.substack.com/) and
 With Marc Watkins and Derek Bruff, she is writing [The Norton Guide to AI-Aware Teaching](https://seagull.wwnorton.com/aiaware/guide), 
 due out in Fall 2026. Her research monograph in progress, *Androids, Spirits and Chatbots*, 
 examines why and how humans have sought to automate writing across history.''')
-with st.expander("Title: AI Awareness, Exploration, and Responsibility",expanded=True):
+with st.expander("AI Awareness, Exploration, and Responsibility",expanded=True):
 	st.markdown('''
 	AI is everywhere, and the values embedded in its technology don't necessarily align with the values of writing pedagogy. 
 	The quick and easy answers of AI can undermine the deliberative conversations about process in the writing center. 
@@ -44,7 +44,7 @@ Her scholarship explores writing center pedagogy, multilingual tutoring, online 
 Her publications include work in TESOL International Journal, Contemporary Educational Technology, WAC Clearinghouse, and Palgrave Macmillan, 
 with forthcoming articles in The Educational Forum and the Online Learning Journal. She remains active in MENAWCA and global writing center networks.''')
 
-with st.expander("Title: Reimagining the Writing Center in the Age of Generative AI: A MENA Perspective on Ethics and Agency",expanded=True):
+with st.expander("Reimagining the Writing Center in the Age of Generative AI: A MENA Perspective on Ethics and Agency",expanded=True):
 	st.markdown('''
 	Generative AI has reshaped the work of writing centers and created urgent questions about authorship, integrity, and student voice. 
 	At the American University of Sharjah Writing Center, peer tutors began to encounter AI-generated drafts in 2022. 
@@ -77,7 +77,7 @@ evaluate learning interventions in practice while keeping the learner’s experi
 creativity, and flow, recognising their importance in sustaining motivation and making learning meaningful. His initiatives, including 
 LIFE (Learning Integrity and Faculty Empowerment), position faculty as intentional designers of transformative experiences, where curiosity, 
 struggle, reflection, and dialogue remain protected as the foundations of genuine learning.''')
-with st.expander("Title: Designing for Productive Struggle in Writing",expanded=True):
+with st.expander("Designing for Productive Struggle in Writing",expanded=True):
 	st.markdown('''
 	This session asks a set of urgent questions: How can we design for authentic human learning? What does authenticity in learning look like today? 
 	What makes a learning experience feel meaningful, embodied, and worth engaging in, and how can we design for this in the age of AI?''')

@@ -312,10 +312,13 @@ with day2:
     with col3:
       st.write("*Co-Creating Graphic Novels with AI* (Show & Tell)")
       st.write("Bianca Arkeen & Fahad Rizwan")
+      st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
       st.write("*Voice and Style: A Personal Statement Writing Workshop Experiment* (Pecha-Kucha)")
       st.write("Sheren Saad")
+      st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
       st.write("*AI in Action: Perspectives from Peer Tutors* (Pecha-Kucha)")
       st.write("Malak Elmallah & Louise Simpson")
+      st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
       st.write("*Sociolinguistic Sexism and Gender-Unspecified Generative AI: Biased Linguistic Practices* (Pecha-Kucha)")
       st.write("Mariami Akopian")
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)

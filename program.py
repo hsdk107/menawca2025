@@ -161,23 +161,15 @@ with day2:
   # *****************************************************************************************************
   col0, col1 = st.columns([2,5],gap="small")
   with col0:
-    st.write("9:00 - 9:30am")
+    st.write("9:30 - 10:30am")
   with col1:
     st.write("**Breakfast & Registration**")
-    st.write("Outside Blue Hall, Arts Center (C3)")
-    st.write("*Registration will continue past this time if needed at the Library Entrance (C2)*")
+    st.write("Library Lobby (C2)")
   st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
   # *****************************************************************************************************
   col0, col1 = st.columns([2,5],gap="small")
   with col0:
-    st.write("9:30 - 10:30am")
-  with col1:
-    st.write("**Regional Speaker: Maria Eleftheriou**")
-    st.write("Outside Blue Hall, Arts Center (C3)")
-  st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
-  col0, col1 = st.columns([2,5],gap="small")
-  with col0:
-    st.write("10:45am - 1:00pm")
+    st.write("10:30am - 1:00pm")
   with col1:
     st.write("**Parallel Sessions:** ***Perceptions and Motivation***")
     st.write("Campus Center (C2) Level 3, Library, Breakout Rooms")
@@ -187,11 +179,11 @@ with day2:
     with col0:
       st.write("Room")
     with col1:
-      st.write("TBD") #st.error("TBD")
+      st.write("Library #340 (Faculty Hub)") #st.error("TBD")
     with col2:
-      st.write("TBD") #st.error("TBD")
+      st.write("Library #339") #st.error("TBD")
     with col3:
-      st.write("TBD") #st.error("TBD")
+      st.write("Library #329") #st.error("TBD")
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
     # *****************************************************************************************************
     col0, col1, col2, col3 = st.columns([1,2,2,2],gap="small")
@@ -206,7 +198,7 @@ with day2:
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
     col0, col1, col2, col3 = st.columns([1,2,2,2],gap="small")
     with col0:
-      st.write("10:45-11:25am")
+      st.write("10:30-11:10am")
     with col1:
       st.write("*Reshaping Stakeholder Collaboration for Student Success in the Age of AI* (Roundtable)")
       st.write("Naqaa Abbas & Luleadey Worku")
@@ -219,13 +211,13 @@ with day2:
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
     col0, col1, col2, col3 = st.columns([1,2,2,2],gap="small")
     with col0:
-      st.write("11:30-12:10pm")
+      st.write("11:15-11:55am")
     with col1:
       st.write("*Strategies to Enhance Student Engagement with the Writing Center*")
       st.write("Muna Al Badaai & Nawal Al Amri")
     with col2:
-      st.write("*Rewriting the Future: AI and Human Collaboration in Writing Center Pedagogy*")
-      st.write("Lara Hamidi")
+      st.write("*Text-to-Speech or Speech-to-Text? Preserving Voice and Agency in AI Co-Creation*")
+      st.write("Sweta Kumari & Aieshah Arif")
     with col3:
       st.write("*Does Authenticity in Writing Matter?*")
       st.write("Tatiana Golechkova")

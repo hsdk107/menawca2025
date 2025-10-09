@@ -3,7 +3,7 @@ import streamlit as st
 st.markdown("""
 <style>
 .stAppHeader {
-    background-color: red;
+    background-color: white;
 }
 </style>
 """, unsafe_allow_html=True)

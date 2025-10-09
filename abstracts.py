@@ -225,20 +225,20 @@ with list1:
   st.markdown('''
   This presentation outlines a dual-approach writing model developed for an academic communication report writing course for STEM students at the University of Doha for Science and Technology. The redesign responded to increased reliance on Generative AI (GenAI) tools and declining student engagement with academic writing. Students complete two key assignments: a timed, in-class report using pre-approved sources, and a partially AI-assisted report paired with a written reflection and short presentation. The in-class task reinforces critical reading and synthesis in a supervised environment. The AI-supported report includes guided instruction in prompt design, source evaluation, and ethical use. Rather than taking a position for or against AI, this model treats GenAI as a space of negotiation—where students practise both independent composition and co-creation. It offers a pragmatic response to evolving writing practices in the MENA STEM context, helping students build dual literacy with and without AI.''')
 
- with st.expander("**Title**",expanded=True):
+ with st.expander("**Text-to-Speech or Speech-to-Text? Preserving Voice and Agency in AI Co-Creation**",expanded=True):
   col0,col1,col2 = st.columns(3)
   with col0:
-   with st.popover("Name1"):
+   with st.popover("Sweta Kumari"):
     st.markdown('''
-    Bio 1''')
+    Sweta Kumari is a Writing Instructor at NYU Abu Dhabi for the past 8 years. She holds a BA in Politics, Philosophy and Economics (PPE) and a Post Graduate Diploma in Social Sciences and Liberal Studies. Her recent adventure is the Master’s Degree program she enrolled in this semester in Applied Sociological Research at the Sorbonne University, Abu Dhabi. Her academic interests are in writing studies, gender and women’s studies, linguistics, aging and social gerontology. She co-led a research project under the Writing, Languages and Pedagogy Research Kitchen titled “Perceptions and Positions of Postcolonial Englishes”. One of the outcomes of this ongoing research project is a podcast titled English or Englishes? that can be accessed on Spotify.''')
   with col1:
-   with st.popover("Name2"):
+   with st.popover("Aieshah Arif"):
     st.markdown('''
-    Bio 2''')
+    Aieshah Arif is serving as a Writing Instructor at NYU Abu Dhabi, with a background in journalism, public relations and marketing. She has worked closely with students and professionals on academic and personal writing instruction for over 10 years at Yale-NUS College, the National University of Singapore, and presently NYU Abu Dhabi. Her professional experience and interest in AI, multilingualism and pedagogy have led to co-heading the research project, “Perceptions and Positions of Postcolonial Englishes” (PPPE). She is also one of the founders, editors and hosts of the podcast English or Englishes? on Spotify.''')
   with col2:
    st.write(" ")
   st.markdown('''
-  Abstract of the presentation.''')
+  In the present context where Generative Artificial Intelligence and its integration in student writing are so rapidly evolving, concerns about the loss of voice and individuality have similarly evolved into concerns about the loss of agency in critical thinking. How do we increase and evaluate levels of meaningful engagement with learning? Writing Centers, as spaces of communication and embodied learning, serve as an ideal platform for re-examining how the physical voice can be used to develop the academic voice. In this presentation, we apply the framework of World Englishes to understand motives of AI use, and share reflections, practical strategies and tools highlighting how consideration of multiple Englishes can drive student engagement and agency. Participants will also be invited to share their perspectives, particularly in relation to the multilingual realities of MENA classrooms. This session is an extension of ongoing research by NYU Abu Dhabi’s Writing, Language and Pedagogy Research Kitchen, under the project Perceptions and Positions of Postcolonial Englishes.''')
   
  with st.expander("**Title**",expanded=True):
   col0,col1,col2 = st.columns(3)
@@ -255,7 +255,51 @@ with list1:
   st.markdown('''
   Abstract of the presentation.''')
 
+ with st.expander("**Title**",expanded=True):
+  col0,col1,col2 = st.columns(3)
+  with col0:
+   with st.popover("Name1"):
+    st.markdown('''
+    Bio 1''')
+  with col1:
+   with st.popover("Name2"):
+    st.markdown('''
+    Bio 2''')
+  with col2:
+   st.write(" ")
+  st.markdown('''
+  Abstract of the presentation.''')
 
+ with st.expander("**Title**",expanded=True):
+  col0,col1,col2 = st.columns(3)
+  with col0:
+   with st.popover("Name1"):
+    st.markdown('''
+    Bio 1''')
+  with col1:
+   with st.popover("Name2"):
+    st.markdown('''
+    Bio 2''')
+  with col2:
+   st.write(" ")
+  st.markdown('''
+  Abstract of the presentation.''')
+
+ with st.expander("**Title**",expanded=True):
+  col0,col1,col2 = st.columns(3)
+  with col0:
+   with st.popover("Name1"):
+    st.markdown('''
+    Bio 1''')
+  with col1:
+   with st.popover("Name2"):
+    st.markdown('''
+    Bio 2''')
+  with col2:
+   st.write(" ")
+  st.markdown('''
+  Abstract of the presentation.''')
+  
 # **************************************************************
 # ********************* ROUNDTABLES ****************************
 # **************************************************************

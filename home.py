@@ -1,4 +1,13 @@
 import streamlit as st
+
+st.markdown("""
+<style>
+.stAppHeader {
+    background-color: red;
+}
+</style>
+""", unsafe_allow_html=True)
+
 #from cards import (
 #	widgets_card,
 #	dataframe_card,

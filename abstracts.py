@@ -289,7 +289,7 @@ with list1:
 
 with list2:
  with st.expander("**Policing GenAI Use: Four Approaches**",expanded=True):
-  col0,col1,col2 = st.columns([0.25,0.35,0.4],border=True,gap=None)
+  col0,col1,col2 = st.columns([0.25,0.32,0.43],border=True,gap=None)
   with col0:
    with st.popover("Kate Moore"):
     st.markdown('''

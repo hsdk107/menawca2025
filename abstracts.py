@@ -240,65 +240,48 @@ with list1:
   st.markdown('''
   In the present context where Generative Artificial Intelligence and its integration in student writing are so rapidly evolving, concerns about the loss of voice and individuality have similarly evolved into concerns about the loss of agency in critical thinking. How do we increase and evaluate levels of meaningful engagement with learning? Writing Centers, as spaces of communication and embodied learning, serve as an ideal platform for re-examining how the physical voice can be used to develop the academic voice. In this presentation, we apply the framework of World Englishes to understand motives of AI use, and share reflections, practical strategies and tools highlighting how consideration of multiple Englishes can drive student engagement and agency. Participants will also be invited to share their perspectives, particularly in relation to the multilingual realities of MENA classrooms. This session is an extension of ongoing research by NYU Abu Dhabi’s Writing, Language and Pedagogy Research Kitchen, under the project Perceptions and Positions of Postcolonial Englishes.''')
   
- with st.expander("**Title**",expanded=True):
+ with st.expander("**The GenAI Edge: Transforming Writing Center Consultations**",expanded=True):
   col0,col1,col2 = st.columns(3)
   with col0:
-   with st.popover("Name1"):
+   with st.popover("Rana R. Abuhassan"):
     st.markdown('''
-    Bio 1''')
+    Rana R. Abuhassan is Director of the Writing and Speaking Center at King Saud University and a newly appointed Transformation Ambassador through the OUR KSU preparation program. She has seven years of experience as a consultant and administrator at the Center for Writing in English. She participated in the Transformation Hackathon and was equipped with practical AI tools.''')
   with col1:
-   with st.popover("Name2"):
-    st.markdown('''
-    Bio 2''')
+   st.write(" ")
   with col2:
    st.write(" ")
   st.markdown('''
-  Abstract of the presentation.''')
+  Generative AI (GenAI) offers writing centers new opportunities to enrich one-on-one writing sessions by fostering creativity and critical thinking. Moving beyond simple text generation, GenAI can serve as a collaborative tool to develop ideas, refine arguments, and explore diverse perspectives. Writing tutors can leverage these capabilities to guide students in enhancing their rhetorical effectiveness, analyzing their work critically, and considering multiple viewpoints. By transforming writing consultations into dynamic, creative, and intellectually stimulating experiences, GenAI positions itself as a partner in developing not just better writing, but more thoughtful writers.''')
 
- with st.expander("**Title**",expanded=True):
+ with st.expander("**The Right of Refusal: Embodying Writing Center Expertise in the Age of AI**",expanded=True):
   col0,col1,col2 = st.columns(3)
   with col0:
-   with st.popover("Name1"):
+   with st.popover("Kelly Wilson"):
     st.markdown('''
-    Bio 1''')
+    Kelly Wilson is in her seventh year as Writing Center Manager at Northwestern University in Qatar. She has 15 years’ experience in writing center work in Doha. She recently co-authored an article on critical peer mentoring and is working on a teacher-action research project on freewriting in L2 first year writing classrooms.''')
   with col1:
-   with st.popover("Name2"):
-    st.markdown('''
-    Bio 2''')
+   st.write(" ")
   with col2:
    st.write(" ")
   st.markdown('''
-  Abstract of the presentation.''')
+  In Refusing Generative AI in Writing Studies, Sano-Franchini, et. al. propose refusal as “a disciplinary and principled response” to GenAI (2024, para. 1). Refusal as a stance toward these technologies should be expanded to include writing centers and first-year writing classrooms in the MENA region. In this presentation, we situate refusal as a viable and reasonable option for writing center administrators in addressing the frustrations that have arisen from students’ reliance on GenAI tools rather than their seeking out customized and contextualized writing center expertise. We will share the highs and lows of our ongoing journey, including the existential dilemma of being expected to respond and give feedback on what we suspect is AI generated texts. In reclaiming the writing center and the first-year writing classroom as GenAI-free spaces, we hope to recover the relationships lost between students, tutors, and teachers - a cornerstone of writing center pedagogy.''')
 
- with st.expander("**Title**",expanded=True):
+ with st.expander("**Writing with AI: Saudi Voices, Shared Dilemmas**",expanded=True):
   col0,col1,col2 = st.columns(3)
   with col0:
-   with st.popover("Name1"):
+   with st.popover("Georgios Kormpas"):
     st.markdown('''
-    Bio 1''')
+    Georgios Kormpas is a faculty member at the Humanities Department, at the Arts and Sciences Deanship at Al Yamamah University, Saudi Arabia, and a PhD candidate at Lancaster University (UK). His research focuses on English Language Teacher Associations, professional development, and the ethical use of AI in education. He has published several volumes with Routledge and Springer on various topics and presented internationally with UNESCO, TESOL, and other organizations. A leader in teaching innovation, curriculum design, and youth empowerment, he integrates AI, SDGs, and digital literacy into higher education and professional practice.''')
   with col1:
-   with st.popover("Name2"):
+   with st.popover("Abdulrahman AlHassun"):
     st.markdown('''
-    Bio 2''')
+    Abdulrahman Alhassun is a Management Information Systems student at Al Yamamah University. He is a certified trainer and a Toastmasters Humorous Speech Champion, representing his University Club and district at the 2025 Toastmasters International Convention in Philadelphia, USA. Passionate about communication, technology, and leadership, he is also engaged in research on AI in education, exploring how students balance creativity, integrity, and innovation in the age of generative tools.''')
   with col2:
-   st.write(" ")
-  st.markdown('''
-  Abstract of the presentation.''')
-
- with st.expander("**Title**",expanded=True):
-  col0,col1,col2 = st.columns(3)
-  with col0:
-   with st.popover("Name1"):
+   with st.popover("Joud Hakeem"):
     st.markdown('''
-    Bio 1''')
-  with col1:
-   with st.popover("Name2"):
-    st.markdown('''
-    Bio 2''')
-  with col2:
-   st.write(" ")
+    Joud Hakeem is a Marketing student at Al Yamamah University and a Toastmasters International Speech Champion. She represented her district and university at the 2025 Toastmasters International Convention in Philadelphia, USA, and recently completed an international internship in Spain. Her interests lie at the intersection of marketing, communication, and AI in higher education, with a focus on how young learners navigate trust, originality, and opportunity in the digital era.''')
   st.markdown('''
-  Abstract of the presentation.''')
+  As artificial intelligence becomes increasingly integrated into higher education, questions of trust, authorship, and academic integrity have grown more complex. This study—conducted by students under faculty supervision—investigates the extent to which students at a Saudi university rely on AI tools for academic writing, ranging from minor edits to full paper generation. Using mixed methods, the research explores student attitudes toward AI as both a writing aid and a potential source of academic dishonesty. Key themes include perceptions of bias, authenticity, and the repetitive nature of AI-generated content compared to human creativity. The study also examines the specific types of AI platforms students use and how frequently they rely on them. Faculty perspectives on originality, learning outcomes, and ethical implications are compared with student views on convenience and support. The findings aim to inform institutional policies on responsible AI integration while fostering a balanced, ethical approach to innovation in academic writing.''')
   
 # **************************************************************
 # ********************* ROUNDTABLES ****************************

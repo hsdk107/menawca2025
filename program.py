@@ -2,7 +2,7 @@ import streamlit as st
 
 st.header("Conference Program")
 
-day1, day2, day3 = st.tabs(["**Friday October 10**", "**Saturday, October 11**", "**Sunday, October 12**"])
+day1, day2, day3 = st.tabs(["** Friday October 10 **", "** Saturday, October 11 **", "** Sunday, October 12 **"],width="stretch")
 # @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 # ******************* FRIDAY SCHEDULE *******************************
 # @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@

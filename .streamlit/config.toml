@@ -30,12 +30,18 @@ style = "normal"
 weight = 400
 
 [theme]
-primaryColor = "#cb785c"
-backgroundColor = "#fdfdf8"
-secondaryBackgroundColor = "#ecebe3"
-textColor = "#3d3a2a"
-linkColor = "#3d3a2a"
-borderColor = "#d3d2ca"
+primaryColor = "#57068c"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#e5f3f6"
+textColor = "#474645"
+linkColor = "#474645"
+borderColor = "#b2dce5"
+#primaryColor = "#cb785c"
+#backgroundColor = "#fdfdf8"
+#secondaryBackgroundColor = "#ecebe3"
+#textColor = "#3d3a2a"
+#linkColor = "#3d3a2a"
+#borderColor = "#d3d2ca"
 showWidgetBorder = true
 baseRadius = "0.75rem"
 buttonRadius = "full"
@@ -44,14 +50,18 @@ headingFontWeights = [600,500,500,500,500,500]
 headingFontSizes = ["3rem", "2rem"]
 codeFont = "SpaceMono"
 codeFontSize = ".75rem"
-codeBackgroundColor = "#ecebe4"
+codeBackgroundColor = "#cce7ed"
+#codeBackgroundColor = "#ecebe4"
 showSidebarBorder = true
 chartCategoricalColors = ["#0ea5e9", "#059669", "#fbbf24"]
 
 [theme.sidebar]
-backgroundColor = "#f0f0ec"
-secondaryBackgroundColor = "#ecebe3"
+backgroundColor = "#99d0dc"
+secondaryBackgroundColor = "#e5f3f6"
+#backgroundColor = "#f0f0ec"
+#secondaryBackgroundColor = "#ecebe3"
 headingFontSizes = ["1.6rem", "1.4rem", "1.2rem"]
-dataframeHeaderBackgroundColor = "#e4e4e0"
+dataframeHeaderBackgroundColor = "#000000"
+#dataframeHeaderBackgroundColor = "#e4e4e0"
 
 hideTopBar = true

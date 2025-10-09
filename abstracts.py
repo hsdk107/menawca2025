@@ -289,7 +289,7 @@ with list1:
 
 with list2:
  with st.expander("**Policing GenAI Use: Four Approaches**",expanded=True):
-  col0,col1,col2 = st.columns(3)
+  col0,col1,col2 = st.columns([0.3,0.3,0.4],border=True,gap=None)
   with col0:
    with st.popover("Kate Moore"):
     st.markdown('''
@@ -333,22 +333,7 @@ with list2:
   with col2:
    st.write(" ")
   st.markdown('''
-  Abstract of the presentation.''')
-
- with st.expander("**Title**",expanded=True):
-  col0,col1,col2 = st.columns(3)
-  with col0:
-   with st.popover("Name1"):
-    st.markdown('''
-    Bio 1''')
-  with col1:
-   with st.popover("Name2"):
-    st.markdown('''
-    Bio 2''')
-  with col2:
-   st.write(" ")
-  st.markdown('''
-  Abstract of the presentation.''')
+  As AI tools become more common in student work, writing centers are well-positioned to influence how institutions approach transparency and responsible use. This roundtable brings together writing center specialists to exchange ideas and explore practical approaches for acknowledging AI use in academic assignments. Suggested methods—such as AI use declarations, usage tables, and referencing options—will be discussed in relation to supporting academic integrity and clarifying the student’s role in the writing process. Participants will consider how to guide students in providing clear, specific acknowledgments of AI use, including what tool was used, for what purpose (e.g., brainstorming, editing, generating citations), and to what extent. The discussion will explore how such detail can help faculty assess student work more fairly and consistently. The session aims to identify adaptable, student-focused strategies that writing centers can share across their institutions, while also opening space for collaboration on shared resources and continued professional support.''')
 
 # **************************************************************
 # ********************* WORKSHOPS ******************************

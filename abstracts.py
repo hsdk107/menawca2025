@@ -407,47 +407,45 @@ with list3:
 # ********************* SHORT-FORM PRESENTATIONS ***************
 # **************************************************************
 with list4:
- with st.expander("**Title**",expanded=True):
+ with st.expander("**AI in Action: Perspectives from Peer Tutors**",expanded=True):
   col0,col1,col2 = st.columns(3)
   with col0:
-   with st.popover("Name1"):
+   with st.popover("Malak Elmallah"):
     st.markdown('''
-    Bio 1''')
+    Malak Elmallah is a recent graduate of New York University Abu Dhabi, where she now works as a Research Assistant in the Department of Psychology. During her undergraduate studies, she served as a Peer Tutor at the university’s Writing Center for three years, supporting students in developing their academic writing and communication skills.''')
   with col1:
-   with st.popover("Name2"):
+   with st.popover("Louise Simpson"):
     st.markdown('''
-    Bio 2''')
+    Louise Simpson is a Writing Instructor at New York University Abu Dhabi. She graduated from NYUAD in 2024, with a degree in Political Science, and a minor in Music. She completed her Capstone project at the intersection of these fields, looking at minority representation in large cultural events, such as the Eurovision Song Contest. Outside of her classwork, she spent a good portion of her time in the Center for Writing where she worked as a peer tutor for three years.''')
   with col2:
    st.write(" ")
   st.markdown('''
-  Abstract of the presentation.''')
+  An interactive session with AI that challenges conceptions of the space it takes in academic life. Taken from real world experiences within the Center of Writing at NYUAD we renegotiate the position of AI in personal practice and how it shapes students' relationship with their production of scholarly work. As people who work with students in a environment that encourages experimentation with skills and tools, we see first hand how AI tools have changed the way students approach writing. This session aims to be an interactive demonstration of how we destigmatize and work with AI in a productive and innovative manner.''')
 
- with st.expander("**Title**",expanded=True):
+ with st.expander("**Voice and Style: A Personal Statement Writing Workshop Experiment**",expanded=True):
   col0,col1,col2 = st.columns(3)
   with col0:
-   with st.popover("Name1"):
+   with st.popover("Sheren Saad"):
     st.markdown('''
-    Bio 1''')
+    Sheren Saad is currently the Educational Support Specialist for Literacy at CMU-Q. She is passionate about supporting multilingual students in navigating the demands of academic reading and writing while also having a research interest in equity and scholarly writing practices in non-Anglophone contexts.''')
   with col1:
-   with st.popover("Name2"):
-    st.markdown('''
-    Bio 2''')
+   st.write(" ")
   with col2:
    st.write(" ")
   st.markdown('''
-  Abstract of the presentation.''')
+  In this brief presentation, I will introduce how writing specialists can provide opportunities for students to critique AI output and in the process, enhance their students’ understanding of the notion of ‘voice’ in writing. This strategy is based on a personal statement writing workshop where the goal was to teach students how to write personal statements that are both analytical and authentic. Relying on a Critical AI Literacy approach (Bali, 2023), I conducted an activity where students were given the opportunity to see if using AI for editing their essays can enhance or obscure their writerly voices. Given that it’s a high-stakes genre for students pursuing graduate school, the students were highly motivated to participate in the activity to see the changes AI prioritizes when asked to edit for coherence and clarity.''')
 
- with st.expander("**Title**",expanded=True):
+ with st.expander("**Co-Creating Graphic Novels with AI**",expanded=True):
   col0,col1,col2 = st.columns(3)
   with col0:
-   with st.popover("Name1"):
+   with st.popover("Bianca Arkeen"):
     st.markdown('''
-    Bio 1''')
+    Bianca Arkeen is the Outreach Manager at NYU Abu Dhabi’s Center for Astrophysics and Space Science (CASS), where she leads public programming, strategic engagement, and creative communications. She holds a BA in Media Studies from UC Berkeley and is completing her Design Communications Certification at UCLA. With over 15 years experience at the crossroads of arts and scientific research management, Bianca leverages her creative vision and operational expertise to advance public engagement with science.''')
   with col1:
-   with st.popover("Name2"):
+   with st.popover("Fahad Rizwan"):
     st.markdown('''
-    Bio 2''')
+    Syed Fahad Rizwan is a writer-director influenced by the works of Kubrick, Lynch, Godard, and Hitchcock. His thesis film True Maskulinity interrogates the commodification of modern masculinity through a bold narrative lens. Beyond cinema, he has co-authored a feature-length graphic novel and created immersive multimedia installations. His work has been featured at the Louvre Abu Dhabi, TDF Magnifiscience, Middle East Film & Comic Con, Abu Dhabi International Book Fair, and the ADMAF Tribune Express.''')
   with col2:
    st.write(" ")
   st.markdown('''
-  Abstract of the presentation.''')
+  In this Show-and-Tell session, we will share Nova of Celestoria, a coming-of-age graphic novel that blends astrophysics with fiction, designed for young adult readers. We will present concept art, AI-assisted writing samples, and behind-the-scenes insights into our creative process, highlighting how AI has influenced storytelling while preserving human-driven creativity. Nova of Celestoria follows Nova, a 17-year-old high schooler whose dreams of the stars accidentally trigger an ancient prophecy, placing him at the heart of a cosmic battle that threatens his world, loved ones, and even a starry-eyed cat. This informal, dynamic session will provide a glimpse into our journey—leveraging AI for brainstorming, refining dialogue, and conceptualizing visuals—while ensuring the creative voice remains distinctly human. Attendees will see how AI can be a tool for inspiration rather than a replacement for originality.''')

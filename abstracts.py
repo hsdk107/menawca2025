@@ -339,21 +339,70 @@ with list2:
 # ********************* WORKSHOPS ******************************
 # **************************************************************
 with list3:
- with st.expander("**Title**",expanded=True):
+ with st.expander("**Natural 20: Crafting Voice Through D&D Roleplay**",expanded=True):
   col0,col1,col2 = st.columns(3)
   with col0:
-   with st.popover("Name1"):
+   with st.popover("Juan José Sáenz"):
     st.markdown('''
-    Bio 1''')
+    Juan José Sáenz is Head of Curriculum Development and Senior Lecturer in the English Unit at Mohamed Bin Zayed University for Humanities. Originally from San Salvador, El Salvador, he holds multiple graduate degrees in Education, including Secondary Education (English and Business Education), TESOL, and Educational Leadership. His research focuses on fostering creativity in writing, using gaming as a tool for language instruction, and promoting cultural understanding in the classroom. He is currently exploring how generative AI and role-playing games can be combined to help students develop and refine voice in writing.''')
   with col1:
-   with st.popover("Name2"):
-    st.markdown('''
-    Bio 2''')
+   st.write(" ")
   with col2:
    st.write(" ")
   st.markdown('''
-  Abstract of the presentation.''')
+  As generative AI becomes a ubiquitous tool in the lives of young writers, we risk losing the most human element of writing: voice. This interactive session offers a creative approach to helping students develop a deeper understanding of voice, tone, and mood in their writing by using AI not as a crutch, but as a creative companion to brainstorming, outlining, and exploring perspective. Drawing from the Six Traits of Writing and Inspired by character-building techniques from Dungeons and Dragons, the session introduces a framework that allows students to pair the latest capabilities of AI with the imagination and creativity of traditional role-playing games. The goal is to help students move beyond generic AI outputs and instead develop writing with intentionality, creativity, and a voice uniquely their own.''')
+ 
+ with st.expander("**Research Reimagined through AI**",expanded=True):
+  col0,col1,col2 = st.columns(3)
+  with col0:
+   with st.popover("Amani Magid"):
+    st.markdown('''
+    Amani Magid is the Academic Librarian for Engineering; AI Initiatives and Reference Services Coordinator at NYUAD Library at New York University Abu Dhabi. Amani earned her undergraduate degree in Integrative Biology with a minor in Arabic from the University of California, Berkeley. She earned her MLIS at the University of Pittsburgh and has gained experience working in academic libraries in the US, Qatar, and the United Arab Emirates. Amani is Senior Level certified for the Academy of Health Information Professionals. Amani’s research interests include AI literacy, AI strategy, systematic reviews, and Library Instruction.''')
+  with col1:
+   with st.popover("Grace Adeneye"):
+    st.markdown('''
+    Grace Adeneye is Assistant Librarian for the Arts, Outreach and Community Engagement at New York University Abu Dhabi (NYUAD). She holds an MA in Library and Information Studies from University College London and studied Museums and Gallery Practice at the same institution. In her role at NYUAD Grace teaches a variety of engaging workshops and classes to students, staff and faculty, with an emphasis on information literacy, media literacy and AI literacy. She is especially interested in the ways that pedagogy, research and learning are evolving alongside rapidly changing technologies.''')
+  with col2:
+   st.write(" ")
+  st.markdown('''
+  Since Generative AI has been introduced to the world in 2022, it was relatively quickly that Gen AI has been integrated into the Higher Education learning and researching landscape. At NYUAD Library it has been integrated into our teaching to the campus community through either instruction sessions or workshops, many of which discuss the research life cycle. How does AI fit in this process? How can GenAI be used to enhance creativity and criticality in the context of academic research? Join the Associate Academic Librarian for Engineering, AI Initiatives and Reference Services Coordinator and the Assistant Academic Librarian for the Arts,Outreach, and Community Engagement to discuss ways in which the Library has taught First Year Writing Students to integrate AI into their research process. In this workshop we’ll discuss:
+  \n\n- AI as a Roadmap to Knowledge
+  \n\n- AI and Information Literacy
+  \n\n- Evaluating AI Tools
+  \n\n- AI, Ideation, and Topic Development''')
 
+ with st.expander("**Teaching AI-Enhanced Writing: A Workshop on Prompting, Research, and Revision Strategies for Student Writers**",expanded=True):
+  col0,col1,col2 = st.columns(3)
+  with col0:
+   with st.popover("Sana Chakroun"):
+    st.markdown('''
+    Dr. Sana Chakroun is a lecturer in Academic Communication at the University of Doha for Science and Technology and holds a Ph.D. in Applied Linguistics. She has taught a wide range of modules—including Composition, ESP, Soft Skills, Business English, and Research Methods—in Qatar, Germany, and Tunisia. Her research explores political discourse, UN resolution rhetoric, academic writing pedagogy, AI integration in higher education, and the challenges multilingual learners face in academic and research communication. She has led workshops on qualitative methods, thematic analysis, and NVivo. Dr. Sana Chakroun has held academic posts at Lusail University, Oryx Universal College, and Philipps University Marburg.''')
+  with col1:
+   with st.popover("Sweta Bharadwaj"):
+    st.markdown('''
+    Sweta Bharadwaj is a Lecturer of Communication at the University of Doha for Science and Technology, Qatar. She holds Master’s degrees in Education (University of Dundee) and Communication (RMIT University). Her teaching and research focus on innovation in curriculum design, experiential learning, and the integration of communication and critical thinking within STEM contexts. She has led initiatives in entrepreneurship education for secondary and post-secondary learners, aligning with national visions in Qatar and Oman. Passionate about AI-enhanced pedagogy and multilingual education, she presents regularly at international conferences and contributes to cross-disciplinary projects in education and instructional leadership.''')
+  with col2:
+   with st.popover("Christopher Hill"):
+    st.markdown('''
+    Christopher Hill is Head of the Department of Communications & Humanities at the University of Doha for Science & Technology. With 20 years of experience teaching academic communication and research writing, his work focuses on experiential learning, learning transfer, and student–faculty partnerships. He has published on ethical reasoning, academic integrity, and AI-enhanced pedagogy, and is active in advancing the Scholarship of Teaching and Learning (SoTL) across the MENA region.''')
+  st.markdown('''
+  This workshop shares instructional strategies for helping students use Generative AI across the writing process, from brainstorming and research to revision. Developed and tested in a STEM-focused academic communication course, these methods are designed to support student writers in making more deliberate, ethical, and effective choices about AI use in academic contexts. The session introduces ways educators can teach students to distinguish between different AI tools, refine prompts, assess credibility, and revise AI-generated content while maintaining their voice and authorship. Activities include applying the CRAAP test, comparing prompts, and guiding reflective follow-ups. Although originally developed for classroom use, these strategies are also adaptable to one-on-one Academic Writing Centre (AWC) support, particularly when students bring AI-generated material to their sessions. Rather than teaching AI tools broadly, the workshop introduces them in context to highlight their strengths and limitations at specific stages of writing. The focus remains on supporting learning, not replacing it.''')
+
+ with st.expander("**Training Consultants to Address AI Use in Students’ Writing**",expanded=True):
+  col0,col1,col2 = st.columns(3)
+  with col0:
+   with st.popover("Avasha Rambiritch"):
+    st.markdown('''
+    Avasha Rambiritch is a Senior Lecturer in the Unit for Academic Literacy, University of Pretoria where she teaches academic literacy and academic writing. She also the coordinates the writing centre. She has published research articles in accredited journals; co-authored book chapters published by reputable international publishers and has co-edited a book on South African writing centres. She is an associate of ICELDA (Inter-Institutional Centre for Language Development and Assessment), and NExLA (Network of Expertise in Language Testing), an executive member of the South African Association of Language Teachers (SAALT) and co-founder of the South African Association of Academic Literacy Practitioners (SAAALP). She serves as the Assistant Editor of the Journal for Language Teaching.''')
+  with col1:
+   with st.popover("Grace Pregent"):
+    st.markdown('''
+    Grace Pregent is the Director of the Writing Center at Michigan State University and faculty in Writing and Rhetoric and in Global Studies. Her research, teaching, and community engagement work focus on narrative theory and higher education and particularly intersections between storytelling, partnerships, and organizational management. Grace’s recent work appears in The Writing Lab Newsletter, College Composition and Communication, and the edited collections Public Feminisms and Queer Praxis in the Writing Center: Expanding Intersectional Paradigms. Her book, In Praise of the Minor Character (2023), was published by McFarland Press. Grace is the President of the East Central Writing Centers Association.''')
+  with col2:
+   st.write(" ")
+  st.markdown('''
+  The growth and utilization of GenAI writing tools by student writers has implications for the work of writing centre practitioners in higher education. The writing centre is often the first point of contact with/for a student’s text, and our orientation to GenAI impacts student writers and consultants navigating texts together. As experienced writing centre practitioners, we believe effective support is founded on effective training, and the urgency of this warrants an investigation into best practices on training consultants to address GenAI use in student writing during writing centre consultations. This workshop will begin with a brief literature scan of writing centre consultant training practices across contexts. We will then share our draft framework for such training, invite participants to interrogate the framework, and then revise the framework. The revised framework can then be piloted by interested institutions to determine its effectiveness and adaptiveness across global contexts.''')
+  
 # **************************************************************
 # ********************* SHORT-FORM PRESENTATIONS ***************
 # **************************************************************

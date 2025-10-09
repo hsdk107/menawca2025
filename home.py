@@ -5,10 +5,9 @@ import streamlit as st
 #	layouts_card
 #)
 
+#st.title("MENAWCA 2025")
 st.image("img/sitebanner.png")
-
-st.title("MENAWCA 2025")
-st.header("Co-creation with AI: Navigating New Horizons in Writing and Learning")
+#st.header("Co-creation with AI: Navigating New Horizons in Writing and Learning")
 
 st.write("[MENAWCA](https://menawca.com/)'s 9th biennial conference is a platform for instructors, tutors, peer tutors, center directors, researchers and other professionals supporting student writers in the MENA region, to share innovative practices and research.")
 st.write("This year's conference is hosted at [New York University Abu Dhabi](https://nyuad.nyu.edu/en/) from **10 to 12 October, 2025**.")

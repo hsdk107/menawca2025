@@ -5,6 +5,8 @@ import streamlit as st
 #	layouts_card
 #)
 
+st.image("img/sitebanner.png")
+
 st.title("MENAWCA 2025")
 st.header("Co-creation with AI: Navigating New Horizons in Writing and Learning")
 

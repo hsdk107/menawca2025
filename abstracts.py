@@ -288,46 +288,48 @@ with list1:
 # **************************************************************
 
 with list2:
- with st.expander("**Title**",expanded=True):
+ with st.expander("**Policing GenAI Use: Four Approaches**",expanded=True):
   col0,col1,col2 = st.columns(3)
   with col0:
-   with st.popover("Name1"):
+   with st.popover("Kate Moore"):
     st.markdown('''
-    Bio 1''')
+    Kate Moore began her teaching career as a peer writing consultant and has built a rewarding career as English instructor in the United States, Qatar, and the UAE. Currently, she is an instructor at AURAK where she teaches English as a second language, developmental English, and EAP courses and a doctoral student in TESOL at the University of St Andrews.''')
   with col1:
-   with st.popover("Name2"):
+   with st.popover("Gulbahor Amirova"):
     st.markdown('''
-    Bio 2''')
+    Gulbahor Amirova is a DELTA-qualified English language Senior Instructor at AURAK with over 20 years of global teaching experience from nursery to college. Specializes in EAP, Composition, and Public Speaking. A PhD candidate focused on integrating AI in education to enhance engagement and promote culturally sustainable pedagogy.''')
+  with col2:
+   with st.popover("Liane Jeschull"):
+    st.markdown('''
+    Liane Jeschull is a Senior Instructor of English at AURAK. She has more than 20 years of experience teaching composition, professional communication, EAP, and linguistics at universities in America, Europe, and Asia. Her research interests focus on language acquisition and second language writing.''')
+  st.markdown('''
+  Armed with institutional GenAI policies and guidelines, practitioners remain mixed in how and to what extent they address or police GenAI overreliance and usage among L2 writers. Participants in this roundtable discussion will analyze four unique approaches to dealing with GenAI usage at a small American-style university in the United Arab Emirates. These approaches, presented in the form of a case study, are identified as focus on process, focus on awareness, selective usage, and focus on detection. The session will offer participants ample opportunity to reflect upon and discuss best practices in GenAI literacy in the L2 writing classroom as well as examine the challenges and affordances of GenAI usage among undergraduates of varying language proficiency levels across several semesters of developmental and for-credit writing courses.''')
+
+ with st.expander("**Reshaping Stakeholder Collaboration for Student Success in the Age of AI**",expanded=True):
+  col0,col1,col2 = st.columns(3)
+  with col0:
+   with st.popover("Naqaa Abbas"):
+    st.markdown('''
+    Dr. Naqaa Abbas earned her PhD in Comparative Literature from Western University where her research focused on representations of Islam and the other in nineteenth-century British, German, and French Romanticism. Her work on representation continues with ongoing projects that examine questions of gender, cultural identity, and linguistic identity in writing communities in the Gulf today. Before joining HBKU, Dr. Abbas was a faculty member in English and served as the Writing in the Disciplines coordinator at Texas A&M University in Qatar. In her teaching and administrative roles, she focused on effective business communication, writing pedagogy, and writing in the disciplines for undergraduate students. She has over eighteen years of teaching and administrative experience in North American, European, and Middle Eastern institutions. Before joining HBKU, Dr. Abbas taught a variety of composition and literature courses at Western University, Zurich University, the University of Saskatchewan, and Qatar University. She has received multiple teaching grants at TAMUQ, including a Transformative Educational Experience Grant for three consecutive years and a Multiversity Grant. Her commitment to teaching and service has been recognized through two prestigious university-wide awards: the Early Career Faculty Excellence Award and the Distinguished Service Award.''')
+  with col1:
+   with st.popover("Luleadey Worku"):
+    st.markdown('''
+    Dr. Luleadey Worku is a CELTA-certified educator with 16+ years in tertiary education. She has taught English Language and Literature at both undergraduate and advanced levels and supervised senior essays . Since moving to Qatar in 2014, she has worked as a writing center professional at various institutions including Qatar University and Texas A&M University. Currently, she is a Writing Specialist at Hamad Bin Khalifa University (HBKU).''')
   with col2:
    st.write(" ")
   st.markdown('''
-  Abstract of the presentation.''')
+  This roundtable discussion will bring together three distinct but interconnected perspectives focusing on student services at a newly established undergraduate program in engineering at Hamad Bin Khalifa University in Doha, Qatar. Together, a writing faculty, a writing support specialist and a student learning support specialist will explore how the rise of AI has reshaped student studying and writing behaviours and the urgent need to reimagine student support services in response. Each panel participant will bring their own unique experience of reimagining and reevaluating their interaction and integrating AI within their support role. For instance, for both writing consultant and student success support specialist, the focus of discussion will be on the role of peer tutor training and the collaboration with faculty as they navigate the rapid use of AI in the curriculum. In turn, the writing faculty will speak about her collaboration with writing services in her classroom as well as her reevaluation of assessment tools for writing assignments. By highlighting local challenges and effective practices, this panel aims to offer a nuanced approach to integrating GenAI across writing support services, academic coaching, and the writing classroom.''')
 
- with st.expander("**Title**",expanded=True):
+ with st.expander("**Transparent Practices: Acknowledging AI in Academic Assignments**",expanded=True):
   col0,col1,col2 = st.columns(3)
   with col0:
-   with st.popover("Name1"):
+   with st.popover("Owen Connor"):
     st.markdown('''
-    Bio 1''')
+    Owen Connor coordinates the University Writing Center (UWrite) at Hamad Bin Khalifa University in Doha, Qatar, and is an active writing specialist. He holds postgraduate qualifications in TESOL, TEAP, and Academic Writing Development, and has nearly 30 years of experience in the field of education in diverse international contexts.''')
   with col1:
-   with st.popover("Name2"):
+   with st.popover("Luleadey Worku"):
     st.markdown('''
-    Bio 2''')
-  with col2:
-   st.write(" ")
-  st.markdown('''
-  Abstract of the presentation.''')
-
- with st.expander("**Title**",expanded=True):
-  col0,col1,col2 = st.columns(3)
-  with col0:
-   with st.popover("Name1"):
-    st.markdown('''
-    Bio 1''')
-  with col1:
-   with st.popover("Name2"):
-    st.markdown('''
-    Bio 2''')
+    Dr. Luleadey Worku is a CELTA-certified educator with 16+ years in tertiary education. She has taught English Language and Literature at both undergraduate and advanced levels and supervised senior essays . Since moving to Qatar in 2014, she has worked as a writing center professional at various institutions including Qatar University and Texas A&M University. Currently, she is a Writing Specialist at Hamad Bin Khalifa University (HBKU).''')
   with col2:
    st.write(" ")
   st.markdown('''

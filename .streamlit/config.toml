@@ -56,8 +56,8 @@ showSidebarBorder = true
 chartCategoricalColors = ["#0ea5e9", "#059669", "#fbbf24"]
 
 [theme.sidebar]
-backgroundColor = "#99d0dc"
-secondaryBackgroundColor = "#e5f3f6"
+backgroundColor = "#e5f3f6"
+secondaryBackgroundColor = "#99d0dc"
 #backgroundColor = "#f0f0ec"
 #secondaryBackgroundColor = "#ecebe3"
 headingFontSizes = ["1.6rem", "1.4rem", "1.2rem"]

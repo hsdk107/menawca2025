@@ -303,6 +303,51 @@ with list2:
   st.markdown('''
   Abstract of the presentation.''')
 
+ with st.expander("**Title**",expanded=True):
+  col0,col1,col2 = st.columns(3)
+  with col0:
+   with st.popover("Name1"):
+    st.markdown('''
+    Bio 1''')
+  with col1:
+   with st.popover("Name2"):
+    st.markdown('''
+    Bio 2''')
+  with col2:
+   st.write(" ")
+  st.markdown('''
+  Abstract of the presentation.''')
+
+ with st.expander("**Title**",expanded=True):
+  col0,col1,col2 = st.columns(3)
+  with col0:
+   with st.popover("Name1"):
+    st.markdown('''
+    Bio 1''')
+  with col1:
+   with st.popover("Name2"):
+    st.markdown('''
+    Bio 2''')
+  with col2:
+   st.write(" ")
+  st.markdown('''
+  Abstract of the presentation.''')
+
+ with st.expander("**Title**",expanded=True):
+  col0,col1,col2 = st.columns(3)
+  with col0:
+   with st.popover("Name1"):
+    st.markdown('''
+    Bio 1''')
+  with col1:
+   with st.popover("Name2"):
+    st.markdown('''
+    Bio 2''')
+  with col2:
+   st.write(" ")
+  st.markdown('''
+  Abstract of the presentation.''')
+
 # **************************************************************
 # ********************* WORKSHOPS ******************************
 # **************************************************************

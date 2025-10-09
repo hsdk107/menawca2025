@@ -210,20 +210,20 @@ with list1:
   st.markdown('''
   This action research study, conducted in three sections of an academic writing course at an American university in the UAE, evaluated a hybrid peer-review model combining traditional student feedback with AI-generated feedback via ChatGPT. Students first conducted rubric-based peer reviews on a causal analysis essay, followed by a lab session where they prompted ChatGPT to provide feedback using the same rubric. A survey and reflection questions compared the utility of human and AI feedback. Results showed a preference for human feedback’s nuanced, context-specific insights, though students valued AI’s speed and grammatical precision, especially in combination with peer input. These findings suggest that a hybrid peer-review model optimizes feedback quality and supports revision. The presentation explores pedagogical implications, emphasizing how AI can complement human feedback in writing instruction, and offers strategies for implementing hybrid peer review in diverse classrooms.''')
   
- with st.expander("**Title**",expanded=True):
+ with st.expander("**Teaching STEM Students to Write with and Without AI**",expanded=True):
   col0,col1,col2 = st.columns(3)
   with col0:
-   with st.popover("Name1"):
+   with st.popover("Sana Chakroun"):
     st.markdown('''
-    Bio 1''')
+    Dr. Sana Chakroun is a lecturer in Academic Communication at the University of Doha for Science and Technology and holds a Ph.D. in Applied Linguistics. She has taught a wide range of modules—including Composition, ESP, Soft Skills, Business English, and Research Methods—in Qatar, Germany, and Tunisia. Her research explores political discourse, UN resolution rhetoric, academic writing pedagogy, AI integration in higher education, and the challenges multilingual learners face in academic and research communication. She has led workshops on qualitative methods, thematic analysis, and NVivo. Dr. Sana Chakroun has held academic posts at Lusail University, Oryx Universal College, and Philipps University Marburg.''')
   with col1:
-   with st.popover("Name2"):
+   with st.popover("Christopher Hill"):
     st.markdown('''
-    Bio 2''')
+    Christopher Hill is Head of the Department of Communications & Humanities at the University of Doha for Science & Technology. With 20 years of experience teaching academic communication and research writing, his work focuses on experiential learning, learning transfer, and student–faculty partnerships. He has published on ethical reasoning, academic integrity, and AI-enhanced pedagogy, and is active in advancing the Scholarship of Teaching and Learning (SoTL) across the MENA region.''')
   with col2:
    st.write(" ")
   st.markdown('''
-  Abstract of the presentation.''')
+  This presentation outlines a dual-approach writing model developed for an academic communication report writing course for STEM students at the University of Doha for Science and Technology. The redesign responded to increased reliance on Generative AI (GenAI) tools and declining student engagement with academic writing. Students complete two key assignments: a timed, in-class report using pre-approved sources, and a partially AI-assisted report paired with a written reflection and short presentation. The in-class task reinforces critical reading and synthesis in a supervised environment. The AI-supported report includes guided instruction in prompt design, source evaluation, and ethical use. Rather than taking a position for or against AI, this model treats GenAI as a space of negotiation—where students practise both independent composition and co-creation. It offers a pragmatic response to evolving writing practices in the MENA STEM context, helping students build dual literacy with and without AI.''')
 
  with st.expander("**Title**",expanded=True):
   col0,col1,col2 = st.columns(3)

@@ -2,7 +2,7 @@ import streamlit as st
 
 st.header("Conference Program")
 
-day1, day2, day3 = st.tabs(["**Friday October 10**", "**Saturday, October 11**", "**Sunday, October 12**"],width="stretch")
+day1, day2, day3 = st.tabs(["**Friday October 10**", "**Saturday, October 11**", "**Sunday, October 12**"])
 # @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 # ******************* FRIDAY SCHEDULE *******************************
 # @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -154,7 +154,7 @@ with day1:
   with col0:
     st.write("6:30 - 8:30pm")
   with col1:
-    st.write("**Conference Dinner at Taparelle, Manarat Al Saadiyat**")
+    st.write("**Conference Dinner at [Taparelle, Manarat Al Saadiyat](https://maps.app.goo.gl/uLf4mczrFYLN3MfS7)**")
     st.write("*Buses to the restaurant will be available outside the Campus Welcome Center departing at 6:00 pm*")
   st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
 

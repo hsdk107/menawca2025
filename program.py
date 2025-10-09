@@ -55,8 +55,8 @@ with day1:
       st.write("11:45am-12:00pm")
     with col1:
       st.write("Leadership Welcome Address")
-      st.write("Arlie Petters, Provost")
-      st.write("Awam Amkpa, Vice Provost for the Arts, Dean of Arts and Humanities")
+      st.write("*Arlie Petters, Provost*")
+      st.write("*Awam Amkpa, Vice Provost for the Arts, Dean of Arts and Humanities*")
   st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
   # *****************************************************************************************************
   col0, col1 = st.columns([2,5],gap="small")

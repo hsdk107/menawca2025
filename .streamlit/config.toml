@@ -32,7 +32,7 @@ weight = 400
 [theme]
 primaryColor = "#57068c"
 backgroundColor = "#ffffff"
-secondaryBackgroundColor = "#e5f3f6"
+secondaryBackgroundColor = "#99d0dc"
 textColor = "#232322"
 linkColor = "#232322"
 borderColor = "#b2dce5"

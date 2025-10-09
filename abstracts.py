@@ -267,7 +267,7 @@ with list1:
   In Refusing Generative AI in Writing Studies, Sano-Franchini, et. al. propose refusal as “a disciplinary and principled response” to GenAI (2024, para. 1). Refusal as a stance toward these technologies should be expanded to include writing centers and first-year writing classrooms in the MENA region. In this presentation, we situate refusal as a viable and reasonable option for writing center administrators in addressing the frustrations that have arisen from students’ reliance on GenAI tools rather than their seeking out customized and contextualized writing center expertise. We will share the highs and lows of our ongoing journey, including the existential dilemma of being expected to respond and give feedback on what we suspect is AI generated texts. In reclaiming the writing center and the first-year writing classroom as GenAI-free spaces, we hope to recover the relationships lost between students, tutors, and teachers - a cornerstone of writing center pedagogy.''')
 
  with st.expander("**Writing with AI: Saudi Voices, Shared Dilemmas**",expanded=True):
-  col0,col1,col2 = st.columns([0.3,0.4,0.3],border=True,gap=None)
+  col0,col1,col2 = st.columns([0.35,0.35,0.3],border=True,gap=None)
   with col0:
    with st.popover("Georgios Kormpas"):
     st.markdown('''

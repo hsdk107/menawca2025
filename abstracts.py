@@ -50,6 +50,19 @@ with list1:
    st.write(" ")
   st.markdown('''
   Nowadays, it seems like everything is “coached”—athletes, executives and now even writing center specialists. But what does coaching actually mean in an academic setting? A team of writing specialists from Qatar University’s English Foundation Program recently completed an intensive coaching training program. In this session, we will explore some of the coaching strategies that may enhance writing center pedagogy. Participants will have the opportunity to try out practical coaching techniques that can be applied in tutoring sessions. Additionally, the presenter will share insights on whether coaching tool have successfully improved interactions with students and colleagues in her daily operations. The session will conclude with an open discussion and Q & A, inviting attendees to reflect on the role of coaching in writing center practices.''')
+
+ with st.expander("**Developing Student Voice Through AI Literacy**",expanded=True):
+  col0,col1,col2 = st.columns(3)
+  with col0:
+   with st.popover("Thuraya Sulaiman"):
+    st.markdown('''
+    Thuraya Sulaiman is a graduate research and teaching assistant in the Department of English at the American University of Sharjah. She holds an MA in TESOL from the American University of Sharjah and a Master’s degree in Sociology from Sorbonne University Abu Dhabi. Her research interests include language teaching and writing instruction, pedagogical approaches to AI literacy, the intersections of language and identity, and the sociology of education.''')
+  with col1:
+   st.write(" ")
+  with col2:
+   st.write(" ")
+  st.markdown('''
+  This session presents a pedagogical approach to teaching AI literacy that helped students critically engage with AI in high-stakes writing. Fifteen students at an American university in China were introduced - through explicit instruction - to the rhetorical structure and purpose of personal statements. They began by drafting essays using AI assistance. These drafts were then analyzed using corpus tools to identify recurring AI-generated linguistic patterns. The findings were shared with students, prompting reflection on the limitations of AI-generated writing and how it contrasts with human expression. Students were then introduced to the Voice Intensity Rating Scale (VIRS) as a self-evaluation tool to guide revision and enhance authenticity and rhetorical presence. Findings reveal that after participating in the training sessions, students used AI primarily for proofreading while relying on their own voice and judgment to shape content. This session offers strategies that emphasize genre, student voice, and higher-order thinking.''')
  
  with st.expander("**Does Authenticity in Writing Matter?**",expanded=True):
   col0,col1,col2 = st.columns(3)

@@ -10,7 +10,7 @@ pages = [
 	),
 	st.Page(
 		"keynote.py",
-		title="Keynote Speakers",
+		title="Speakers",
 		icon=":material/podium:"
 	),
 	st.Page(

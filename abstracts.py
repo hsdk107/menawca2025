@@ -58,7 +58,9 @@ with list1:
     st.markdown('''
     Thuraya Sulaiman is a graduate research and teaching assistant in the Department of English at the American University of Sharjah. She holds an MA in TESOL from the American University of Sharjah and a Master’s degree in Sociology from Sorbonne University Abu Dhabi. Her research interests include language teaching and writing instruction, pedagogical approaches to AI literacy, the intersections of language and identity, and the sociology of education.''')
   with col1:
-   st.write(" ")
+   with st.popover("Neslihan Bilikozen"):
+    st.markdown('''
+    Neslihan Bilikozen is an Assistant Professor in the Department of English at the American University of Sharjah. She holds a Doctorate in Education from the University of Exeter and an MA in English Language Teaching from Bogazici University and Georgia State University. At AUS, she teaches undergraduate and graduate courses, supervises MA theses, and mentors student-teachers in their research and professional development. Her research focuses on critical English for Academic Purposes (EAP), with particular attention to the interrelations of academic literacy and identity, as well as critical AI literacy in English-medium contexts.''')
   with col2:
    st.write(" ")
   st.markdown('''

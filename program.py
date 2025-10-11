@@ -110,7 +110,7 @@ with day1:
       st.write("Kelly Wilson")
     with col2:
       st.write("*Developing Student Voice Through AI Literacy*")
-      st.write("Thuraya Sulaiman")
+      st.write("Thuraya Sulaiman & Neslihan Bilikozen")
     st.markdown("<hr style='margin:0;'>",unsafe_allow_html=True)
     col0, col1, col2 = st.columns([1,2,2],gap="small")
     with col0:

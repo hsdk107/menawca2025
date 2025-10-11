@@ -38,5 +38,5 @@ with col2:
 	st.page_link("abstracts.py", label="Speaker Abstracts", icon=":material/article_person:")
 
 with st.expander("Announcements",expanded=True,icon=":material/release_alert:"):
-	st.write("No new announcements.")
+	st.write("Become a MENAWCA member by filling out [this form](https://docs.google.com/forms/d/e/1FAIpQLSf1EoKrTTaJm-cTtOL8AElLgFQagVFepziJgnFernYJ47R__A/viewform).")
 		

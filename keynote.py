@@ -85,3 +85,26 @@ with st.expander("Designing for Productive Struggle in Writing",expanded=True):
 	st.markdown('''
 	By foregrounding these elements, the discussion highlights how intentional design choices can help preserve authenticity in writing. 
 	The aim is to equip faculty with perspectives and practices that make learning not only effective but genuinely worth engaging in.''')
+
+st.header("Presidential Perspectives")
+col1, col2, col3, col4 = st.columns(4, gap="small")
+with col1:
+	st.write("Sahar Mari")
+	st.write("popover name")
+with col2:
+	st.write("Kelly Wilson")
+	st.write("popover name")
+with col3:
+	st.write("Nicole Abiad")
+	st.write("popover name")
+with col4:
+	st.write("Ryan McDonald")
+	st.write("popover name")
+with st.expander("Presidential Perspectives",expanded=True):
+	st.markdown('''
+	This presidential panel brings together past and present leaders of MENAWCA to reflect on the evolving landscape of writing center work in 
+	the region and beyond. In conversation with one another and with the audience, the panelists will consider how shifting contexts — from 
+	emerging technologies such as generative AI to questions of co-creation, collaboration, and community — shape our practices and our futures. 
+	By engaging both the history of MENAWCA and its role in a rapidly changing educational ecosystem, this session invites participants to think 
+	alongside the panelists about the challenges and possibilities ahead for writing centers in the MENA region.''')
+

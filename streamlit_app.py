@@ -30,7 +30,7 @@ page.run()
 
 with st.sidebar.container(height=310):
 	with st.expander("Announcements",expanded=True,icon=":material/release_alert:"):
-		st.write("No new announcements.")
+		st.write("Become a MENAWCA member by filling out [this form](https://docs.google.com/forms/d/e/1FAIpQLSf1EoKrTTaJm-cTtOL8AElLgFQagVFepziJgnFernYJ47R__A/viewform).")
 #	if page.title == "Widgets":
 #		widgets_card()
 #	elif page.title == "Data":

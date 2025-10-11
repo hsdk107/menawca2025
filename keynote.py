@@ -93,22 +93,22 @@ with tab2:
 	st.header("Presidential Perspectives")
 	col1, col2, col3, col4 = st.columns(4, gap="small")
 	with col1:
-		st.write("img")
+		st.image("img/saharmari.jpg")
 		with st.popover("Sahar Mari"):
 			st.markdown('''
 			Sahar Mari collaborates with faculty to enhance teaching methods and integrate new technologies into curricula. With over a decade of experience in higher education, she is a dedicated learning engineer at Northwestern University in Qatar committed to making education accessible. Sahar is passionate about teaching and learning, and as a lifelong learner, she continually seeks to incorporate new technologies into experiential learning activities. She holds an M.F.A. in Graphic Design and Visual Experience from the Savannah College of Art and Design.''')
 	with col2:
-		st.write("img")
+		st.image("img/kellywilson.jpg")
 		with st.popover("Kelly Wilson"):
 			st.markdown('''
 			Kelly Wilson is in her seventh year as Writing Center Manager at Northwestern University in Qatar. She has 15 years’ experience in writing center work in Doha. She recently co-authored an article on critical peer mentoring and is working on a teacher-action research project on freewriting in L2 first year writing classrooms.''')
 	with col3:
-		st.write("img")
+		st.image("img/nicoleabiad.jpg")
 		with st.popover("Nicole Abiad"):
 			st.markdown('''
 			Nicole Abiad is the current President of MENAWCA and the Writing Center Coordinator at Virginia Commonwealth University in Qatar. Since moving to Qatar in 2011, she has worked extensively in writing instruction, English language teaching, and academic support. Nicole has served on the MENAWCA executive board since 2019 and is dedicated to fostering collaboration among writing centers and educators across the region. Nicole is passionate about building communities of practice that connect writing centers across the region and about exploring the role of AI, literacy, and academic integrity in higher education.''')
 	with col4:
-		st.write("img")
+		st.image("img/ryanmcdonald.jpg")
 		with st.popover("Ryan McDonald"):
 			st.markdown('''
 			Ryan McDonald is a teacher, writer, and ultramarathon enthusiast who has spent the past decade building writing center communities in the Middle East. After earning his BA in English Literature and History and later his Master’s in the Science of Teaching English at the State University of New York, he taught abroad before settling in Muscat, Oman, where he worked for the past eleven years as a course coordinator and director of the writing center at Sultan Qaboos University. He is currently the Director of the Writing Center and Writing Program at AUB Mediterraneo in Paphos, Cyprus. Since 2016 Ryan has been an active board member of the Middle East and North Africa Writing Center Alliance (MENAWCA), serving in roles from President to Treasurer and helping organize conferences, training sessions, and workshops throughout the region. His current research explores the ecology of writing center spaces, the role of generative AI in composition, and how feedback can actually be practical (and not just paperwork).''')

@@ -98,7 +98,7 @@ with tab2:
 			st.markdown('''
 			Sahar Mari collaborates with faculty to enhance teaching methods and integrate new technologies into curricula. With over a decade of experience in higher education, she is a dedicated learning engineer at Northwestern University in Qatar committed to making education accessible. Sahar is passionate about teaching and learning, and as a lifelong learner, she continually seeks to incorporate new technologies into experiential learning activities. She holds an M.F.A. in Graphic Design and Visual Experience from the Savannah College of Art and Design.''')
 	with col2:
-		st.image("img/kelly_wilson.png")
+		st.image("img/kellywilson.png")
 		with st.popover("Kelly Wilson"):
 			st.markdown('''
 			Kelly Wilson is in her seventh year as Writing Center Manager at Northwestern University in Qatar. She has 15 years’ experience in writing center work in Doha. She recently co-authored an article on critical peer mentoring and is working on a teacher-action research project on freewriting in L2 first year writing classrooms.''')

@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-tab1, tab2 = st.tabs(["**Keynote Speakers**", "Presidential Perspectives**"])
+tab1, tab2 = st.tabs(["**Keynote Speakers**", "**Presidential Perspectives**"])
 
 with tab1:
 	st.header("Keynote Speakers")

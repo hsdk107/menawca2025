@@ -93,7 +93,7 @@ with tab2:
 	st.header("Presidential Perspectives")
 	col1, col2, col3, col4 = st.columns(4, gap="small")
 	with col1:
-		st.image("img/saharmari.jpg")
+		#st.image("img/saharmari.jpg")
 		with st.popover("Sahar Mari"):
 			st.markdown('''
 			Sahar Mari collaborates with faculty to enhance teaching methods and integrate new technologies into curricula. With over a decade of experience in higher education, she is a dedicated learning engineer at Northwestern University in Qatar committed to making education accessible. Sahar is passionate about teaching and learning, and as a lifelong learner, she continually seeks to incorporate new technologies into experiential learning activities. She holds an M.F.A. in Graphic Design and Visual Experience from the Savannah College of Art and Design.''')

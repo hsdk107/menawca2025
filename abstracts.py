@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.header("Speakers and Abstracts")
+st.header("Presenters and Abstracts")
 list1, list2, list3, list4 = st.tabs(["**Presentations**", "**Roundtables**", "**Workshops**","**Short-Form Presentations**"])
 
 # **************************************************************
